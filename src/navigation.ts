@@ -16,6 +16,14 @@ export const headerData = {
       text: 'FAQ',
       href: '/faq',
     },
+    {
+      text: 'Tarifs',
+      href: '/tarifs',
+    },
+    {
+      text: 'Contact',
+      href: '/contact',
+    },
   ],
   actions: [{ text: 'Commencer', href: 'https://github.com/biblys/biblys', target: '_blank' }],
 };
