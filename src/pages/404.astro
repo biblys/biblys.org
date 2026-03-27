@@ -11,13 +11,10 @@ const title = `Erreur 404`;
       <div class="max-w-md text-center">
         <h2 class="mb-8 font-bold text-9xl">
           <span class="sr-only">Erreur</span>
-          <span class="text-primary">404</span>
+          <span style="color: #ff6600">404</span>
         </h2>
         <p class="text-3xl font-semibold md:text-3xl">Désolé, cette page est introuvable.</p>
-        <p class="mt-4 mb-8 text-lg text-muted dark:text-slate-400">
-          Vous pouvez retrouver tout le contenu sur notre page d'accueil.
-        </p>
-        <a rel="noopener noreferrer" href={getHomePermalink()} class="btn ml-4">Retour à l'accueil</a>
+        <a rel="noopener noreferrer" href={getHomePermalink()} class="mt-8 btn ml-4">Retour à l'accueil</a>
       </div>
     </div>
   </section>
