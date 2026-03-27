@@ -13,11 +13,6 @@ export const headerData = {
       target: '_blank',
     },
     {
-      text: 'Open source',
-      href: 'https://docs.biblys.fr',
-      target: '_blank',
-    },
-    {
       text: 'Tarifs',
       href: '#',
     },
