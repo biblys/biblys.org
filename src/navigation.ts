@@ -48,6 +48,6 @@ export const footerData = {
     },
   ],
   secondaryLinks: [],
-  socialLinks: [],
+  socialLinks: [{ ariaLabel: 'Flux RSS', icon: 'tabler:rss', href: 'https://blog.biblys.org/rss.xml' }],
   footNote: `© ${new Date().getFullYear()} Biblys`,
 };
