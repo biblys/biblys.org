@@ -1,0 +1,82 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+
+const metadata = {
+  title: 'Question fréquentes',
+};
+---
+
+<Layout metadata={metadata}>
+  <FAQs
+    title="Questions fréquentes"
+    classes={{ container: 'max-w-6xl' }}
+    items={[
+      {
+        title: 'Pourquoi Biblys plutôt que WooCommerce ou Shopify\u202F?',
+        description:
+          "WooCommerce et Shopify sont des outils e-commerce généralistes : ils peuvent vendre n'importe quoi, des chaussures aux abonnements en passant par les livres. Biblys a été conçu dès le départ pour le marché du livre. Cela signifie que la gestion des ISBN, de la TVA au taux réduit du livre, des types de contributeurs (auteur, illustrateur, traducteur…), des précommandes ou encore des livres numériques est native, pas un plugin à configurer ou à maintenir. Pour un éditeur ou un libraire, Biblys est prêt à l'emploi là où les autres solutions demandent un travail d'adaptation important.",
+      },
+      {
+        title: 'Biblys gère-t-il les livres numériques\u202F?',
+        description:
+          "Oui, nativement. Vous pouvez proposer des fichiers téléchargeables (ePub, PDF, etc.) à la vente directement depuis votre boutique. Les fichiers sont accessibles uniquement après paiement. Biblys gère aussi les extraits publics, les mises à jour de fichiers avec notification automatique aux acheteurs, et le watermarking en option. Aucun plugin tiers n'est nécessaire.",
+      },
+      {
+        title: 'Quelle est la différence entre la version open source et la version clés-en-main\u202F?',
+        description:
+          "Version open source : le code source de Biblys est librement accessible (licence AGPL-3.0). Vous pouvez l'installer vous-même sur votre propre hébergement, le modifier et l'adapter à vos besoins. C'est gratuit en termes de licence, mais cela demande des compétences techniques (PHP, MySQL, administration serveur) et du temps.\n\nVersion clés-en-main : Biblys installe et configure votre boutique pour vous, s'occupe de l'hébergement et assure la maintenance technique. C'est la solution recommandée si vous voulez vous concentrer sur votre activité sans gérer l'infrastructure. Cette option est payante.",
+      },
+      {
+        title: 'Puis-je faire des précommandes ou des campagnes de financement participatif\u202F?',
+        description:
+          "Oui, les deux sont disponibles nativement. Les précommandes permettent de mettre en vente un livre avant sa date de sortie. Le crowdfunding intégré vous permet de lancer des campagnes de financement participatif directement depuis votre boutique, avec des contreparties composées d'articles de votre catalogue. Vos contributeurs peuvent même ajouter d'autres articles à leur commande en même temps.",
+      },
+      {
+        title: 'Dois-je ressaisir tout mon catalogue manuellement\u202F?',
+        description:
+          "Non. Biblys peut importer automatiquement les fiches articles depuis nooSFere (base de données spécialisée en littératures de l'imaginaire) et Amazon. De plus, les fiches articles sont mutualisées entre tous les sites du réseau Biblys : si un livre a déjà été référencé par un autre utilisateur, vous bénéficiez de la fiche existante.",
+      },
+      {
+        title: 'Quels moyens de paiement sont acceptés\u202F?',
+        description:
+          "Biblys s'intègre avec Stripe, PayPlug (solution française) et PayPal pour le paiement en ligne par carte bancaire. Le paiement par chèque et par virement bancaire est également disponible.",
+      },
+      {
+        title: 'Biblys gère-t-il la livraison\u202F?',
+        description:
+          "Oui. Vous pouvez configurer les frais de port par poids, par nombre d'articles ou par montant de commande, avec des zones géographiques distinctes (France, international). Biblys est intégré avec Mondial Relay pour la livraison en point relais et Colissimo pour le suivi d'envoi. La livraison gratuite à partir d'un seuil de montant est également configurable.",
+      },
+      {
+        title: "Depuis combien de temps Biblys existe-t-il et qui l'utilise\u202F?",
+        description:
+          "Biblys est en production depuis 2009. Parmi ses utilisateurs : les Éditions du Bélial', ActuSF, Dystopia, la Librairie L'Atalante, Charybde, Scylla et de nombreuses autres structures de l'édition et de la librairie indépendante française.",
+      },
+      {
+        title: 'Le logiciel est-il toujours maintenu et mis à jour\u202F?',
+        description:
+          "Oui. Biblys est activement développé et mis à jour régulièrement. Le code source est disponible publiquement, ce qui garantit la transparence sur l'évolution du logiciel. Dans le cas de la version clés-en-main, vous n'avez pas à installer vous-même les mises à jour.",
+      },
+      {
+        title: 'La version open source est-elle vraiment gratuite\u202F?',
+        description:
+          "La licence est gratuite, oui. Mais les coûts réels incluent l'hébergement (serveur avec PHP et MySQL), le nom de domaine, et surtout le temps ou les compétences nécessaires à l'installation et à la maintenance. Si vous n'avez pas de développeur dans votre équipe, la version clés-en-main est souvent plus économique à long terme.",
+      },
+      {
+        title: 'Qui possède mes données clients et mes données de vente\u202F?',
+        description:
+          "Vous. Contrairement aux marketplaces comme Amazon ou aux plateformes comme Place des Libraires, Biblys ne s'interpose pas entre vous et vos clients. Votre base clients, vos données de vente, votre historique de commandes : tout est hébergé sur votre boutique et vous appartient, y compris avec la version clés-en-mains dont l'installation se fait sur votre hébergement. Vous pouvez exporter vos données à tout moment.",
+      },
+      {
+        title: 'Que se passe-t-il si je veux quitter Biblys un jour\u202F?',
+        description:
+          "Comme Biblys est un logiciel libre, vous n'êtes pas prisonnier d'une plateforme. Vous pouvez exporter vos données, récupérer votre catalogue et migrer vers une autre solution. Il n'y a pas de lock-in propriétaire. C'est vrai pour la version open source et pour la version clés en main.",
+      },
+      {
+        title: 'Faut-il être développeur pour utiliser Biblys\u202F?',
+        description:
+          "Pour la version clés-en-main, non. L'administration du catalogue, des commandes, du blog et du crowdfunding se fait via une interface web accessible à tous. En revanche, la personnalisation graphique avancée (thème aux couleurs de votre structure) requiert des notions de HTML/CSS et du moteur de templates Twig. Pour la version open source, des compétences techniques en administration système sont nécessaires à l'installation.",
+      },
+    ]}
+  />
+</Layout>

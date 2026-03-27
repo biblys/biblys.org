@@ -13,6 +13,11 @@ export const headerData = {
       target: '_blank',
     },
     {
+      text: 'FAQ',
+      href: '/faq',
+      target: '_blank',
+    },
+    {
       text: 'Tarifs',
       href: '#',
     },
