@@ -25,7 +25,7 @@ export const headerData = {
       href: '/contact',
     },
   ],
-  actions: [{ text: 'Commencer', href: 'https://github.com/biblys/biblys', target: '_blank' }],
+  actions: [{ text: 'Commencer', href: '/tarifs' }],
 };
 
 export const footerData = {
