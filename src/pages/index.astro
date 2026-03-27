@@ -34,8 +34,8 @@ const metadata = {
     image={{
       src: '~/assets/images/hero-image.jpg',
       alt: 'Photographie d’une librairie montrant une libraire en train d’encaisser',
-      // https://unsplash.com/fr/photos/personnes-a-linterieur-de-la-bibliotheque-tv8PIPPY3rQ
     }}
+    imageCaption={`Photo de <a href="https://unsplash.com/fr/@paulinel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pauline Loroy</a> sur <a href="https://unsplash.com/fr/photos/personnes-a-linterieur-de-la-bibliotheque-tv8PIPPY3rQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>`}
   >
     <Fragment slot="title">
       Le logiciel <span class="text-accent highlight">libre</span>
@@ -125,7 +125,7 @@ const metadata = {
         icon: 'tabler:package',
       },
       {
-        title: 'Étape 2 : <span class="font-medium">Alimenter</span>',
+        title: 'Étape 2 : <span class="font-medium">Référencer</span>',
         description: 'Ajoutez des livres au catalogue de votre site.',
         icon: 'tabler:letter-case',
       },
@@ -149,7 +149,6 @@ const metadata = {
   <Features2
     title="Elles font confiance à Biblys"
     subtitle="Les maisons d’édition et librairies qui utilisent Biblys aujourd’hui"
-    tagline="Components"
     items={[
       {
         title: 'Éditions du Bélial’',
@@ -232,44 +231,4 @@ const metadata = {
                 `}
   />
 
-  <!-- FAQs Widget ******************* -->
-
-  <FAQs
-    title="Frequently Asked Questions"
-    subtitle="Dive into the following questions to gain insights into the powerful features that AstroWind offers and how it can elevate your web development journey."
-    tagline="FAQs"
-    classes={{ container: 'max-w-6xl' }}
-    items={[
-      {
-        title: 'Why AstroWind?',
-        description:
-          "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
-      },
-      {
-        title: 'What do I need to start?',
-        description:
-          'Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.',
-      },
-      {
-        title: 'How to install the Astro + Tailwind CSS template?',
-        description:
-          "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.",
-      },
-      {
-        title: "What's something that you don't understand?",
-        description:
-          "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
-      },
-      {
-        title: 'What is something that you would like to try again?',
-        description:
-          "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
-      },
-      {
-        title: 'If you could only ask one question to each person you meet, what would that question be?',
-        description:
-          "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
-      },
-    ]}
-  />
 </Layout>
