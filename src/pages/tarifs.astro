@@ -1,0 +1,126 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Prices from '~/components/widgets/Pricing.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Tarifs',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- HeroText Widget ******************* -->
+
+  <HeroText
+    tagline="Version clés-en-main"
+    title="Tarifs Biblys"
+    subtitle={`Ces tarifs concernent uniquement la version clés-en-main de Biblys, qui inclut la maintenance, les mises à jour, l'assistance et le support technique. La version open-source est et restera toujours gratuite — <a class="text-primary hover:underline" href="https://github.com/biblys/biblys">disponible sur GitHub</a>.`}
+  />
+
+  <!-- Abonnement mensuel ******************* -->
+
+  <Prices
+    prices={[
+      {
+        title: 'Palier 1',
+        subtitle: 'CA annuel inférieur à 2 000 €',
+        price: 15,
+        period: 'par mois',
+      },
+      {
+        title: 'Palier 2',
+        subtitle: 'CA annuel de 2 000 € à 5 000 €',
+        price: 30,
+        period: 'par mois',
+      },
+      {
+        title: 'Palier 3',
+        subtitle: 'CA annuel de plus de 5 000 €',
+        prefix: 'à partir de',
+        price: 50,
+        period: 'par mois',
+        hasRibbon: true,
+        ribbonTitle: 'populaire',
+      },
+    ]}
+    classes={{ container: 'pt-0 pb-4 md:pt-0 md:pb-6 lg:pt-0 lg:pb-8' }}
+  />
+
+  <div class="max-w-3xl mx-auto px-4 pb-10 text-center text-sm text-gray-500 dark:text-slate-400">
+    Le tarif est calculé d'après le chiffre d'affaires réalisé grâce à votre site Biblys sur l'année n-1.
+    Pour la première année, un forfait est appliqué&nbsp;: 15&nbsp;€ pour les structures associatives, 30&nbsp;€ pour les structures commerciales.
+  </div>
+
+  <!-- Prestations ponctuelles ******************* -->
+
+  <div class="max-w-3xl mx-auto px-4 py-8 md:py-10">
+    <h2 class="text-2xl font-bold text-center mb-2 dark:text-white">Prestations ponctuelles</h2>
+    <p class="text-center text-muted mb-8 dark:text-slate-300">Ces prestations sont facturées une seule fois, indépendamment de l'abonnement.</p>
+    <div class="divide-y divide-gray-200 dark:divide-gray-700 rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
+      <div class="flex justify-between items-center px-6 py-4 bg-white dark:bg-slate-900">
+        <span class="font-medium dark:text-white">Installation</span>
+        <span class="font-semibold text-primary">250 €</span>
+      </div>
+      <div class="flex justify-between items-center px-6 py-4 bg-white dark:bg-slate-900">
+        <span class="font-medium dark:text-white">Création d'un habillage graphique <span class="text-sm text-gray-500 dark:text-slate-400">(optionnel)</span></span>
+        <span class="font-semibold text-primary">1 500 €</span>
+      </div>
+      <div class="flex justify-between items-center px-6 py-4 bg-white dark:bg-slate-900">
+        <span class="font-medium dark:text-white">Développement de fonctionnalités prioritaires</span>
+        <span class="font-semibold text-primary">500 €</span>
+      </div>
+      <div class="flex justify-between items-center px-6 py-4 bg-white dark:bg-slate-900">
+        <span class="font-medium dark:text-white">Référencement du catalogue</span>
+        <span class="font-semibold text-primary">1 € / titre</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features3 Widget ******************* -->
+
+  <Features3
+    columns={3}
+    items={[
+      {
+        title: 'Hébergement et nom de domaine',
+        description:
+          "L'hébergement (10&nbsp;€/mois) et le nom de domaine (10&nbsp;€/an) sont à la charge du client et ne sont pas inclus dans l'abonnement.",
+        icon: 'tabler:server',
+      },
+      {
+        title: 'Aucune commission sur les ventes',
+        description:
+          "Il n'y a aucun frais caché&nbsp;: Biblys ne prélève aucune commission sur les ventes réalisées via votre site.",
+        icon: 'tabler:receipt-off',
+      },
+      {
+        title: 'Sans engagement',
+        description:
+          "L'abonnement est sans engagement et résiliable sans préavis. En cas de résiliation, vous conservez votre site sans frais supplémentaires.",
+        icon: 'tabler:lock-open',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl py-8 md:py-10 lg:py-12' }}
+  />
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    title="Prêt à démarrer ?"
+    subtitle="Contactez-nous pour démarrer votre projet ou obtenir plus d'informations sur nos tarifs."
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Nous contacter',
+        href: '/contact',
+      },
+    ]}
+  />
+
+  <!-- TVA notice -->
+  <div class="max-w-5xl mx-auto px-4 pb-12 text-center text-sm text-gray-500 dark:text-slate-400">
+    Tous les tarifs sont TTC — TVA non applicable, article 293B du CGI.
+  </div>
+</Layout>
