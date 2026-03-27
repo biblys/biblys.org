@@ -65,6 +65,14 @@ const postCollection = defineCollection({
   }),
 });
 
+const faqCollection = defineCollection({
+  loader: glob({ pattern: '*.md', base: 'src/content/faq' }),
+  schema: z.object({
+    title: z.string(),
+  }),
+});
+
 export const collections = {
   post: postCollection,
+  faq: faqCollection,
 };
