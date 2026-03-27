@@ -15,11 +15,6 @@ export const headerData = {
     {
       text: 'FAQ',
       href: '/faq',
-      target: '_blank',
-    },
-    {
-      text: 'Tarifs',
-      href: '#',
     },
   ],
   actions: [{ text: 'Commencer', href: 'https://github.com/biblys/biblys', target: '_blank' }],
