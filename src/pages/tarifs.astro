@@ -2,13 +2,11 @@
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import Prices from '~/components/widgets/Pricing.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
-import Steps from '~/components/widgets/Steps.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Pricing',
+  title: 'Tarifs',
 };
 ---
 
@@ -16,229 +14,113 @@ const metadata = {
   <!-- HeroText Widget ******************* -->
 
   <HeroText
-    tagline="Pricing"
-    title="Stellar Pricing for Every Journey"
-    subtitle="Choose the perfect plan that aligns with your cosmic goals."
+    tagline="Version clés-en-main"
+    title="Tarifs Biblys"
+    subtitle={`Ces tarifs concernent uniquement la version clés-en-main de Biblys, qui inclut la maintenance, les mises à jour, l'assistance et le support technique. La version open-source est et restera toujours gratuite — <a class="text-primary hover:underline" href="https://github.com/biblys/biblys">disponible sur GitHub</a>.`}
   />
 
-  <!-- Pricing Widget ******************* -->
+  <!-- Abonnement mensuel ******************* -->
 
   <Prices
-    title="Our prices"
-    subtitle="Only pay for what you need"
     prices={[
       {
-        title: 'basic',
-        subtitle: 'Optimal choice for personal use',
-        price: 29,
-        period: 'per month',
-        items: [
-          {
-            description: 'Etiam in libero, et volutpat',
-          },
-          {
-            description: 'Aenean ac nunc dolor tristique',
-          },
-          {
-            description: 'Cras scelerisque accumsan lib',
-          },
-          {
-            description: 'In hac habitasse',
-          },
-        ],
-        callToAction: {
-          target: '_blank',
-          text: 'Get started',
-          href: '#',
-        },
+        title: 'Palier 1',
+        subtitle: 'CA annuel inférieur à 2 000 €',
+        price: 15,
+        period: 'par mois',
       },
       {
-        title: 'standard',
-        subtitle: 'Optimal choice for small teams',
-        price: 69,
-        period: 'Per Month',
-        items: [
-          {
-            description: 'Proin vel laoreet',
-          },
-          {
-            description: 'Ut efficitur habitasse egestas',
-          },
-          {
-            description: 'Volutpat hac curabitur',
-          },
-          {
-            description: 'Pellentesque blandit ut nibh',
-          },
-          {
-            description: 'Donec fringilla sem',
-          },
-        ],
-        callToAction: {
-          target: '_blank',
-          text: 'Get started',
-          href: '#',
-        },
+        title: 'Palier 2',
+        subtitle: 'CA annuel de 2 000 € à 5 000 €',
+        price: 30,
+        period: 'par mois',
+      },
+      {
+        title: 'Palier 3',
+        subtitle: 'CA annuel de plus de 5 000 €',
+        prefix: 'à partir de',
+        price: 50,
+        period: 'par mois',
         hasRibbon: true,
-        ribbonTitle: 'popular',
-      },
-      {
-        title: 'premium',
-        subtitle: 'Optimal choice for companies',
-        price: 199,
-        period: 'Per Month',
-        items: [
-          {
-            description: 'Curabitur suscipit risus',
-          },
-          {
-            description: 'Aliquam habitasse malesuada',
-          },
-          {
-            description: 'Suspendisse sit amet blandit',
-          },
-          {
-            description: 'Suspendisse auctor blandit dui',
-          },
-        ],
-        callToAction: {
-          target: '_blank',
-          text: 'Get started',
-          href: '#',
-        },
+        ribbonTitle: 'populaire',
       },
     ]}
+    classes={{ container: 'pt-0 pb-4 md:pt-0 md:pb-6 lg:pt-0 lg:pb-8' }}
   />
 
-  <!-- Features3 Widget ************** -->
+  <div class="max-w-3xl mx-auto px-4 pb-10 text-center text-sm text-gray-500 dark:text-slate-400">
+    Le tarif est calculé d'après le chiffre d'affaires réalisé grâce à votre site Biblys sur l'année n-1.
+    Pour la première année, un forfait est appliqué&nbsp;: 15&nbsp;€ pour les structures associatives, 30&nbsp;€ pour les structures commerciales.
+  </div>
+
+  <!-- Prestations ponctuelles ******************* -->
+
+  <div class="max-w-3xl mx-auto px-4 py-8 md:py-10">
+    <h2 class="text-2xl font-bold text-center mb-2 dark:text-white">Prestations ponctuelles</h2>
+    <p class="text-center text-muted mb-8 dark:text-slate-300">Ces prestations sont facturées une seule fois, indépendamment de l'abonnement.</p>
+    <div class="divide-y divide-gray-200 dark:divide-gray-700 rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
+      <div class="flex justify-between items-center px-6 py-4 bg-white dark:bg-slate-900">
+        <span class="font-medium dark:text-white">Installation</span>
+        <span class="font-semibold text-primary">250 €</span>
+      </div>
+      <div class="flex justify-between items-center px-6 py-4 bg-white dark:bg-slate-900">
+        <span class="font-medium dark:text-white">Création d'un habillage graphique <span class="text-sm text-gray-500 dark:text-slate-400">(optionnel)</span></span>
+        <span class="font-semibold text-primary">1 500 €</span>
+      </div>
+      <div class="flex justify-between items-center px-6 py-4 bg-white dark:bg-slate-900">
+        <span class="font-medium dark:text-white">Développement de fonctionnalités prioritaires</span>
+        <span class="font-semibold text-primary">500 €</span>
+      </div>
+      <div class="flex justify-between items-center px-6 py-4 bg-white dark:bg-slate-900">
+        <span class="font-medium dark:text-white">Référencement du catalogue</span>
+        <span class="font-semibold text-primary">1 € / titre</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features3 Widget ******************* -->
 
   <Features3
-    title="Price-related features"
-    subtitle="Discover the advantages of choosing our plans"
-    columns={2}
+    columns={3}
     items={[
       {
-        title: 'Tiered Pricing Plans',
-        description: 'Choose from a range of pricing plans designed to accommodate different budgets and requirements.',
-        icon: 'tabler:stairs',
+        title: 'Hébergement et nom de domaine',
+        description:
+          "L'hébergement (10&nbsp;€/mois) et le nom de domaine (10&nbsp;€/an) sont à la charge du client et ne sont pas inclus dans l'abonnement.",
+        icon: 'tabler:server',
       },
       {
-        title: 'Transparent Pricing',
-        description: 'Clearly displayed pricing details for each plan, with no hidden costs or unexpected charges.',
-        icon: 'tabler:flip-vertical',
+        title: 'Aucune commission sur les ventes',
+        description:
+          "Il n'y a aucun frais caché&nbsp;: Biblys ne prélève aucune commission sur les ventes réalisées via votre site.",
+        icon: 'tabler:receipt-off',
       },
       {
-        title: 'Secure Payment Methods',
-        description: 'Secure payment gateways to protect your financial information during transactions.',
-        icon: 'tabler:shield-lock',
-      },
-      {
-        title: 'Instant Access',
-        description: `Immediate access to your chosen plan's features and templates upon subscription.`,
-        icon: 'tabler:accessible',
-      },
-      {
-        title: 'Upgrade Value',
-        description: 'Upgrade to higher-tier plans to unlock more features and benefits for an enhanced experience.',
-        icon: 'tabler:chevrons-up',
-      },
-      {
-        title: '24H support',
-        description: 'Questions answered via live chat, email or phone, every calendar day.',
-        icon: 'tabler:headset',
+        title: 'Sans engagement',
+        description:
+          "L'abonnement est sans engagement et résiliable sans préavis. En cas de résiliation, vous conservez votre site sans frais supplémentaires.",
+        icon: 'tabler:lock-open',
       },
     ]}
-    classes={{ container: 'max-w-5xl' }}
-  />
-
-  <!-- Steps Widget ****************** -->
-
-  <Steps
-    title="A guided journey from plans to creativity"
-    tagline="simplified process"
-    isReversed={true}
-    items={[
-      {
-        title: 'Explore plans',
-        icon: 'tabler:number-1',
-      },
-      {
-        title: 'Select a plan',
-        icon: 'tabler:number-2',
-      },
-      {
-        title: 'Sign Up / Log In',
-        icon: 'tabler:number-3',
-      },
-      {
-        title: 'Review order',
-        icon: 'tabler:number-4',
-      },
-      {
-        title: 'Enter payment details',
-        icon: 'tabler:number-5',
-      },
-      {
-        title: 'Confirmation',
-        icon: 'tabler:number-6',
-      },
-      {
-        title: 'Download and start using the template(s)',
-        icon: 'tabler:number-7',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1536816579748-4ecb3f03d72a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Steps image',
-    }}
-  />
-
-  <!-- FAQs Widget ******************* -->
-
-  <FAQs
-    title="Pricing FAQs"
-    subtitle="Choosing the right plan is important, and we're here to answer your questions. If you have queries about our pricing options, you're in the right place."
-    columns={1}
-    items={[
-      {
-        title: 'Do the plans come with customer support?',
-        description:
-          'Absolutely, all plans include access to our dedicated customer support to assist you with any queries or concerns.',
-      },
-      {
-        title: 'Is there a trial period for the different plans?',
-        description:
-          "Unfortunately, we don't offer trial periods for the plans. However, you can check out our demo section to preview the quality of our templates.",
-      },
-      {
-        title: 'Can I switch between plans?',
-        description:
-          'Certainly! You can easily upgrade or downgrade your plan, at any time, to find the one that best suits your evolving requirements.',
-      },
-      {
-        title: 'What payment methods do you accept?',
-        description:
-          'We accept major credit cards and online payment methods to ensure a convenient and secure transaction process.',
-      },
-      {
-        title: 'Are there any hidden fees beyond the displayed cost?',
-        description:
-          'No, the subscription cost covers all the features and templates listed under each plan. There are no hidden fees or extra charges.',
-      },
-    ]}
+    classes={{ container: 'max-w-5xl py-8 md:py-10 lg:py-12' }}
   />
 
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
-    title="Ready to boost your projects?"
-    subtitle="Join our community of satisfied customers who have transformed their work with our templates."
+    title="Prêt à démarrer ?"
+    subtitle="Contactez-nous pour démarrer votre projet ou obtenir plus d'informations sur nos tarifs."
     actions={[
       {
         variant: 'primary',
-        text: 'Get started now',
-        href: '/',
+        text: 'Nous contacter',
+        href: '/contact',
       },
     ]}
   />
+
+  <!-- TVA notice -->
+  <div class="max-w-5xl mx-auto px-4 pb-12 text-center text-sm text-gray-500 dark:text-slate-400">
+    Tous les tarifs sont TTC — TVA non applicable, article 293B du CGI.
+  </div>
 </Layout>

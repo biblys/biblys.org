@@ -146,6 +146,7 @@ export interface Price {
   title?: string;
   subtitle?: string;
   description?: string;
+  prefix?: string;
   price?: number | string;
   period?: string;
   items?: Array<Item>;
