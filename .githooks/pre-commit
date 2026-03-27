@@ -1,0 +1,21 @@
+#!/bin/sh
+# Applique les règles typographiques françaises dans les fichiers markdown de src/content/
+#
+# Signes doubles : espace fine insécable (U+202F) avant ? ! ; :
+# Guillemets     : espace fine insécable après « et avant »
+
+STAGED_MD=$(git diff --cached --name-only --diff-filter=ACM | grep '^src/content/.*\.md$')
+
+if [ -z "$STAGED_MD" ]; then
+  exit 0
+fi
+
+for file in $STAGED_MD; do
+  perl -i -CSD -pe '
+    s/ ([?!;:])/\x{202F}$1/g;
+    s/«\s+/«\x{202F}/g;
+    s/\s+»/\x{202F}»/g;
+    s/ ,/,/g;
+  ' "$file"
+  git add "$file"
+done
