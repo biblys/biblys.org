@@ -2,78 +2,23 @@
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import ContactUs from '~/components/widgets/Contact.astro';
-import Features2 from '~/components/widgets/Features2.astro';
-
 const metadata = {
   title: 'Contact',
 };
 ---
 
 <Layout metadata={metadata}>
-  <!-- HeroText Widget ******************* -->
+  <HeroText tagline="Vous souhaitez en savoir plus sur Biblys ?" title="Faisons connaissance" />
 
-  <HeroText tagline="Contact" title="Let's Connect!" />
-
-  <ContactUs
-    id="form"
-    title="Drop us a message today!"
-    subtitle="For quicker answers, explore our FAQs section. You may find the solution you're looking  for right there! If not, our support team is delighted to help you."
-    inputs={[
-      {
-        type: 'text',
-        name: 'name',
-        label: 'Name',
-      },
-      {
-        type: 'email',
-        name: 'email',
-        label: 'Email',
-      },
-    ]}
-    textarea={{
-      label: 'Message',
-    }}
-    disclaimer={{
-      label:
-        'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
-    }}
-    description="Our support team typically responds within 24 business hours."
-  />
-
-  <!-- Features2 Widget ************** -->
-
-  <Features2
-    title="We are here to help!"
-    items={[
-      {
-        title: 'General support',
-        description: `Chat with us for inquiries related to account management, website navigation, payment issues, accessing purchased templates or general questions about the website's functionality.`,
-      },
-      {
-        title: 'Contact sales',
-        description:
-          'Chat with us for questions about purchases, customization options, licensing for commercial use, inquiries about specific template, etc.',
-      },
-      {
-        title: 'Technical support',
-        description:
-          'Chat with us when facing issues like template installation, problems editing difficulties, compatibility issues with software or download errors, or other technical challenges related to using the templates.',
-      },
-      {
-        title: 'Phone',
-        description: '+1 (234) 567-890',
-        icon: 'tabler:headset',
-      },
-      {
-        title: 'Email',
-        description: 'contact@support.com',
-        icon: 'tabler:mail',
-      },
-      {
-        title: 'Location',
-        description: '1234 Lorem Ipsum St, 12345, Miami, EEUU',
-        icon: 'tabler:map-pin',
-      },
-    ]}
-  />
+  <section class="py-12 px-4">
+    <div class="max-w-[700px] mx-auto text-lg text-muted dark:text-slate-400">
+      <p class="mb-4">Derrière Biblys, il y a <a href="https://clemlatz.dev/" class="text-primary hover:underline">Clément Latzarus</a>, ancien libraire, ancien responsable web et éditions numérique des <a href="https://www.belial.fr/" class="text-primary hover:underline">Éditions du Bélial'</a>, co-fondateur des <a href="https://www.dystopia.fr/" class="text-primary hover:underline">Éditions Dystopia</a>, reconverti dans le développement web depuis près de 15 ans, mais toujours passionné par les problématiques modernes du secteur livre.</p>
+      <p class="mb-4">Lead Developer à temps partiel chez <a href="https://pix.fr/" class="text-primary hover:underline">Pix</a>, le service public pour évaluer, développer et certifier les compétences numériques, je consacre une journée par semaine au développement de Biblys, un projet que je porte depuis 2008, et à la maintenance d'une quinzaine de sites de maison d'éditions et de librairies indépendantes.</p>
+      <p class="mb-6">N'hésitez pas à me contacter pour m'exposer votre projet et vos besoins, afin que nous puissions définir ensemble si Biblys est la bonne solution pour vous. Vous préférez discuter de vive voix en visio&nbsp;? Prenons rendez-vous.</p>
+      <div class="flex justify-center flex-wrap gap-4">
+        <a href="https://clemlatz.dev/contact" class="btn-primary" target="_blank" rel="noopener noreferrer">Contact</a>
+        <a href="https://cal.com/clemlatz/rdv" class="btn-secondary" target="_blank" rel="noopener noreferrer">Prendre rendez-vous</a>
+      </div>
+    </div>
+  </section>
 </Layout>
