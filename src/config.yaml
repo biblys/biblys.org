@@ -10,7 +10,7 @@ site:
 metadata:
   title:
     default: Biblys, le logiciel livre pour créer des boutique de livres en ligne
-    template: '%s — Biblys'
+    template: '%s · Biblys'
   description: Utilisée par des librairies et des maisons indépendantes, Biblys est un logiciel libre et gratuit pour vendre facilement des livres papier et numérique sur le web.
   robots:
     index: true
