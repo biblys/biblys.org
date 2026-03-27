@@ -25,7 +25,7 @@ export const headerData = {
       href: '/contact',
     },
   ],
-  actions: [{ text: 'Commencer', href: '/tarifs' }],
+  actions: [{ text: 'Commencer', href: '/commencer' }],
 };
 
 export const footerData = {
