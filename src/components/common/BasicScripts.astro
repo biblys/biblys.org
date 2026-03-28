@@ -2,6 +2,7 @@
 ---
 
 <script is:inline>
+  (function () {
   if (window.basic_script) {
     return;
   }
@@ -51,7 +52,7 @@
     const toggleMenuBtn = document.querySelector('[data-aw-toggle-menu]');
     if (toggleMenuBtn && !toggleMenuBtn.dataset.awListenerAttached) {
       toggleMenuBtn.dataset.awListenerAttached = '1';
-      attachEvent(toggleMenuBtn, 'click', function (_, elem) {
+      attachEvent([toggleMenuBtn], 'click', function (_, elem) {
         elem.classList.toggle('expanded');
         document.body.classList.toggle('overflow-hidden');
         document.getElementById('header')?.classList.toggle('h-screen');
@@ -149,5 +150,6 @@
     onLoad();
     onPageShow();
   });
+  })();
 </script>
 
