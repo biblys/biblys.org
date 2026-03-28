@@ -1,12 +1,15 @@
 name: Deploy
 
 on:
-  push:
+  workflow_run:
+    workflows: ["Format + Lint + Tests"]
     branches: [main]
+    types: [completed]
   workflow_dispatch:
 
 jobs:
   build-and-deploy:
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
     uses: clemlatz/build-and-deploy/.github/workflows/workflow.yml@main
     with:
       build-output-directory: dist

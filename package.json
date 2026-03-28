@@ -19,7 +19,8 @@
     "check:prettier": "prettier --check .",
     "fix": "npm run fix:eslint && npm run fix:prettier",
     "fix:eslint": "eslint --fix .",
-    "fix:prettier": "prettier -w ."
+    "fix:prettier": "prettier -w .",
+    "test": "npm run check && npx playwright test"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.10",
@@ -42,11 +43,13 @@
     "@eslint/js": "^9.16.0",
     "@iconify-json/flat-color-icons": "^1.2.0",
     "@iconify-json/tabler": "^1.2.10",
+    "@playwright/test": "^1.58.2",
     "@tailwindcss/typography": "^0.5.15",
     "@types/eslint__js": "^8.42.3",
     "@types/js-yaml": "^4.0.9",
     "@types/lodash.merge": "^4.6.9",
     "@types/mdx": "^2.0.13",
+    "@types/node": "^25.5.0",
     "@typescript-eslint/eslint-plugin": "^8.17.0",
     "@typescript-eslint/parser": "^8.17.0",
     "astro-compress": "2.3.5",
