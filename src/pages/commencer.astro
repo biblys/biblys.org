@@ -20,7 +20,7 @@ const metadata = {
       <div class="rounded-xl border border-gray-200 dark:border-gray-700 overflow-hidden">
         <div class="px-6 py-5 bg-white dark:bg-slate-900 border-b border-gray-200 dark:border-gray-700">
           <span class="block text-lg font-bold text-gray-900 dark:text-white">Open source</span>
-          <span class="block text-sm text-muted mt-1">Géré par vous</span>
+          <span class="block text-sm text-muted mt-1">Géré <u>par</u> vous</span>
         </div>
         <ul class="divide-y divide-gray-200 dark:divide-gray-700 bg-white dark:bg-slate-900">
           <li class="flex justify-between items-center px-6 py-3 text-sm">
@@ -28,16 +28,18 @@ const metadata = {
             <span class="text-green-500 text-xl" aria-label="Inclus">✓</span>
           </li>
           <li class="flex justify-between items-center px-6 py-3 text-sm">
-            <span class="text-default font-medium">Mises à jour</span>
-            <span class="text-muted">À votre charge</span>
-          </li>
-          <li class="flex justify-between items-center px-6 py-3 text-sm">
             <span class="text-default font-medium">Installation et configuration</span>
-            <span class="text-muted">Documentation disponible</span>
+            <span class="text-muted">Documentation</span>
           </li>
           <li class="flex justify-between items-center px-6 py-3 text-sm">
-            <span class="text-default font-medium">Support technique</span>
-            <span class="text-muted">Communauté GitHub</span>
+            <span class="text-default font-medium">Maintenance et mises à jour</span>
+            <span class="text-muted">Documentation</span>
+          </li>
+          <li class="flex justify-between items-center px-6 py-3 text-sm">
+            <span class="text-default font-medium">Assistance et support technique</span>
+            <span class="text-muted">
+              <a href="https://github.com/biblys/biblys/discussions">Communauté GitHub</a>
+            </span>
           </li>
           <li class="flex justify-between items-center px-6 py-3 text-sm">
             <span class="text-default font-medium">Tarif</span>
@@ -58,8 +60,8 @@ const metadata = {
 
       <div class="rounded-xl border border-primary/30 overflow-hidden">
         <div class="px-6 py-5 bg-primary/5 dark:bg-primary/10 border-b border-primary/20">
-          <span class="block text-lg font-bold text-primary">Accompagnée</span>
-          <span class="block text-sm text-muted mt-1">Géré pour vous</span>
+          <span class="block text-lg font-bold text-primary">Accompagnement</span>
+          <span class="block text-sm text-muted mt-1">Géré <u>pour</u> vous</span>
         </div>
         <ul class="divide-y divide-gray-200 dark:divide-gray-700 bg-primary/5 dark:bg-primary/10">
           <li class="flex justify-between items-center px-6 py-3 text-sm">
@@ -67,7 +69,7 @@ const metadata = {
             <span class="text-green-500 text-xl" aria-label="Inclus">✓</span>
           </li>
           <li class="flex justify-between items-center px-6 py-3 text-sm">
-            <span class="text-default font-medium">Mises à jour</span>
+            <span class="text-default font-medium">Toutes les fonctionnalités</span>
             <span class="text-green-500 text-xl" aria-label="Inclus">✓</span>
           </li>
           <li class="flex justify-between items-center px-6 py-3 text-sm">
@@ -75,7 +77,11 @@ const metadata = {
             <span class="text-green-500 text-xl" aria-label="Inclus">✓</span>
           </li>
           <li class="flex justify-between items-center px-6 py-3 text-sm">
-            <span class="text-default font-medium">Support technique</span>
+            <span class="text-default font-medium">Maintenance et mises à jour</span>
+            <span class="text-green-500 text-xl" aria-label="Inclus">✓</span>
+          </li>
+          <li class="flex justify-between items-center px-6 py-3 text-sm">
+            <span class="text-default font-medium">Assistance et support technique</span>
             <span class="text-green-500 text-xl" aria-label="Inclus">✓</span>
           </li>
           <li class="flex justify-between items-center px-6 py-3 text-sm">
@@ -98,102 +104,149 @@ const metadata = {
     <div class="hidden md:block overflow-hidden rounded-xl border border-gray-200 dark:border-gray-700">
       <table class="w-full">
         <thead>
-          <tr class="border-b border-gray-200 dark:border-gray-700">
-            <th class="w-1/3 px-6 py-5 text-left text-sm font-medium text-muted bg-gray-50 dark:bg-slate-800">
-            </th>
-            <th class="w-1/3 px-6 py-5 text-center bg-white dark:bg-slate-900">
-              <span class="block text-lg font-bold text-gray-900 dark:text-white">Open source</span>
-              <span class="block text-sm text-muted mt-1">Géré par vous</span>
-            </th>
-            <th class="w-1/3 px-6 py-5 text-center bg-primary/5 dark:bg-primary/10">
-              <span class="block text-lg font-bold text-primary">Accompagnée</span>
-              <span class="block text-sm text-muted mt-1">Géré pour vous</span>
-            </th>
-          </tr>
+        <tr class="border-b border-gray-200 dark:border-gray-700">
+          <th class="w-1/3 px-6 py-5 text-left text-sm font-medium text-muted bg-gray-50 dark:bg-slate-800">
+          </th>
+          <th class="w-1/3 px-6 py-5 text-center bg-white dark:bg-slate-900">
+            <span class="block text-lg font-bold text-gray-900 dark:text-white">Open source</span>
+            <span class="block text-sm text-muted mt-1">Géré <u>par</u> vous</span>
+          </th>
+          <th class="w-1/3 px-6 py-5 text-center bg-primary/5 dark:bg-primary/10">
+            <span class="block text-lg font-bold text-primary">Avec accompagnement</span>
+            <span class="block text-sm text-muted mt-1">Géré <u>pour</u> vous</span>
+          </th>
+        </tr>
         </thead>
         <tbody class="divide-y divide-gray-200 dark:divide-gray-700">
-          <tr>
-            <td class="px-6 py-4 text-sm font-medium text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-slate-800">
-              Logiciel Biblys
-            </td>
-            <td class="px-6 py-4 text-center bg-white dark:bg-slate-900">
+        <tr>
+          <td class="px-6 py-4 text-sm font-medium text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-slate-800">
+            Logiciel Biblys
+          </td>
+          <td class="px-6 py-4 text-center bg-white dark:bg-slate-900">
+            <span class="text-green-500 text-xl" aria-label="Inclus">✓</span>
+          </td>
+          <td class="px-6 py-4 text-center bg-primary/5 dark:bg-primary/10">
+            <span class="text-green-500 text-xl" aria-label="Inclus">✓</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="px-6 py-4 text-sm font-medium text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-slate-800">
+            Toutes les fonctionnalités
+          </td>
+          <td class="px-6 py-4 text-center bg-white dark:bg-slate-900">
+            <span class="text-green-500 text-xl" aria-label="Inclus">✓</span>
+          </td>
+          <td class="px-6 py-4 text-center bg-primary/5 dark:bg-primary/10">
+            <span class="text-green-500 text-xl" aria-label="Inclus">✓</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="px-6 py-4 text-sm font-medium text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-slate-800">
+            Propriétaire du site et des données
+          </td>
+          <td class="px-6 py-4 text-center text-sm text-muted bg-white dark:bg-slate-900">
+            <span class="flex items-center justify-center gap-1">
               <span class="text-green-500 text-xl" aria-label="Inclus">✓</span>
-            </td>
-            <td class="px-6 py-4 text-center bg-primary/5 dark:bg-primary/10">
+              Vous
+            </span>
+          </td>
+          <td class="px-6 py-4 text-center text-sm text-muted bg-primary/5 dark:bg-primary/10">
+            <span class="flex items-center justify-center gap-1">
               <span class="text-green-500 text-xl" aria-label="Inclus">✓</span>
-            </td>
-          </tr>
-          <tr>
-            <td class="px-6 py-4 text-sm font-medium text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-slate-800">
-              Mises à jour
-            </td>
-            <td class="px-6 py-4 text-center text-sm text-muted bg-white dark:bg-slate-900">
-              À votre charge
-            </td>
-            <td class="px-6 py-4 text-center bg-primary/5 dark:bg-primary/10">
+              Vous
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td class="px-6 py-4 text-sm font-medium text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-slate-800">
+            Engagement
+          </td>
+          <td class="px-6 py-4 text-center text-sm text-muted bg-white dark:bg-slate-900">
+            <span class="flex items-center justify-center gap-1 ">
               <span class="text-green-500 text-xl" aria-label="Inclus">✓</span>
-            </td>
-          </tr>
-          <tr>
-            <td class="px-6 py-4 text-sm font-medium text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-slate-800">
-              Installation et configuration
-            </td>
-            <td class="px-6 py-4 text-center text-sm text-muted bg-white dark:bg-slate-900">
-              Documentation disponible
-            </td>
-            <td class="px-6 py-4 text-center bg-primary/5 dark:bg-primary/10">
+              Aucun
+            </span>
+          </td>
+          <td class="px-6 py-4 text-center text-sm text-muted bg-primary/5 dark:bg-primary/10">
+            <span class="flex items-center justify-center gap-1">
               <span class="text-green-500 text-xl" aria-label="Inclus">✓</span>
-            </td>
-          </tr>
-          <tr>
-            <td class="px-6 py-4 text-sm font-medium text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-slate-800">
-              Support technique
-            </td>
-            <td class="px-6 py-4 text-center text-sm text-muted bg-white dark:bg-slate-900">
-              Communauté GitHub
-            </td>
-            <td class="px-6 py-4 text-center bg-primary/5 dark:bg-primary/10">
-              <span class="text-green-500 text-xl" aria-label="Inclus">✓</span>
-            </td>
-          </tr>
-          <tr>
-            <td class="px-6 py-4 text-sm font-medium text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-slate-800">
-              Tarif
-            </td>
-            <td class="px-6 py-4 text-center bg-white dark:bg-slate-900">
-              <span class="text-xl font-bold text-gray-900 dark:text-white">Gratuit</span>
-            </td>
-            <td class="px-6 py-4 text-center bg-primary/5 dark:bg-primary/10">
-              <span class="text-xl font-bold text-primary">À partir de 20&nbsp;€/mois</span>
-            </td>
-          </tr>
-          <tr>
-            <td class="px-6 py-5 bg-gray-50 dark:bg-slate-800"></td>
-            <td class="px-6 py-5 text-center bg-white dark:bg-slate-900">
-              <a
-                href="https://github.com/biblys/biblys"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="inline-flex items-center gap-2 rounded-lg border border-gray-300 dark:border-gray-600 px-5 py-3 text-sm font-semibold text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-slate-800 transition-colors"
-              >
-                Télécharger
-              </a>
-            </td>
-            <td class="px-6 py-5 text-center bg-primary/5 dark:bg-primary/10">
-              <a
-                href="/contact"
-                class="inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-3 text-sm font-semibold text-white hover:bg-primary/90 transition-colors"
-              >
-                Contact
-              </a>
-            </td>
-          </tr>
+              Aucun
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td class="px-6 py-4 text-sm font-medium text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-slate-800">
+            Installation et configuration
+          </td>
+          <td class="px-6 py-4 text-center text-sm text-muted bg-white dark:bg-slate-900">
+            <a href="https://docs.biblys.org/">Documentation</a>
+          </td>
+          <td class="px-6 py-4 text-center bg-primary/5 dark:bg-primary/10">
+            <span class="text-green-500 text-xl" aria-label="Inclus">✓</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="px-6 py-4 text-sm font-medium text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-slate-800">
+            Maintenance et mises à jour
+          </td>
+          <td class="px-6 py-4 text-center text-sm text-muted bg-white dark:bg-slate-900">
+            <a href="https://docs.biblys.org/">Documentation</a>
+          </td>
+          <td class="px-6 py-4 text-center bg-primary/5 dark:bg-primary/10">
+            <span class="text-green-500 text-xl" aria-label="Inclus">✓</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="px-6 py-4 text-sm font-medium text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-slate-800">
+            Assistance et support technique
+          </td>
+          <td class="px-6 py-4 text-center text-sm text-muted bg-white dark:bg-slate-900">
+            <a href="https://github.com/biblys/biblys/discussions">Communauté GitHub</a>
+          </td>
+          <td class="px-6 py-4 text-center bg-primary/5 dark:bg-primary/10">
+            <span class="text-green-500 text-xl" aria-label="Inclus">✓</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="px-6 py-4 text-sm font-medium text-gray-700 dark:text-gray-300 bg-gray-50 dark:bg-slate-800">
+            Tarif
+          </td>
+          <td class="px-6 py-4 text-center bg-white dark:bg-slate-900">
+            <span class="text-xl font-bold text-gray-900 dark:text-white">Gratuit</span>
+          </td>
+          <td class="px-6 py-4 text-center bg-primary/5 dark:bg-primary/10">
+            <span class="text-xl font-bold text-primary">À partir de 20&nbsp;€/mois</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="px-6 py-5 bg-gray-50 dark:bg-slate-800"></td>
+          <td class="px-6 py-5 text-center bg-white dark:bg-slate-900">
+            <a
+              href="https://docs.biblys.org/installer/installer-biblys/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 rounded-lg border border-gray-300 dark:border-gray-600 px-5 py-3 text-sm font-semibold text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-slate-800 transition-colors"
+            >
+              Installer
+            </a>
+          </td>
+          <td class="px-6 py-5 text-center bg-primary/5 dark:bg-primary/10">
+            <a
+              href="/contact"
+              class="inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-3 text-sm font-semibold text-white hover:bg-primary/90 transition-colors"
+            >
+              Contact
+            </a>
+          </td>
+        </tr>
         </tbody>
       </table>
     </div>
 
     <p class="mt-4 text-center text-sm text-gray-500 dark:text-slate-400">
-      Pour les détails des tarifs de la version accompagnée, consultez la <a href="/tarifs" class="text-primary hover:underline">page Tarifs</a>.
+      Pour les détails des tarifs de la version avec accompagnement, consultez la <a href="/tarifs"
+                                                                                     class="text-primary hover:underline">page
+      Tarifs</a>.
     </p>
   </div>
 </Layout>
