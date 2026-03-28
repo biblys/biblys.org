@@ -187,10 +187,18 @@ export const getStaticPathsBlogPost = async () => {
   if (!isBlogEnabled || !isBlogPostRouteEnabled) return [];
   return (await fetchPosts()).flatMap((post) => ({
     params: {
-      blog: post.permalink,
+      slug: post.permalink.replace(new RegExp(`^${BLOG_BASE}\\/`), ''),
     },
     props: { post },
   }));
+};
+
+/** */
+export const getStaticPathsBlogPagination = async ({ paginate }: { paginate: PaginateFunction }) => {
+  if (!isBlogEnabled || !isBlogListRouteEnabled) return [];
+  const allPaths = paginate(await fetchPosts(), { pageSize: blogPostsPerPage });
+  // Skip page 1 — it is handled by blog/index.astro
+  return allPaths.filter((_, index) => index > 0);
 };
 
 /** */

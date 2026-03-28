@@ -1,0 +1,37 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import BlogList from '~/components/blog/List.astro';
+import Headline from '~/components/blog/Headline.astro';
+import Pagination from '~/components/blog/Pagination.astro';
+
+import { blogListRobots, fetchPosts, blogPostsPerPage, isBlogEnabled, isBlogListRouteEnabled } from '~/utils/blog';
+import { BLOG_BASE } from '~/utils/permalinks';
+
+export const prerender = true;
+
+const posts = isBlogEnabled && isBlogListRouteEnabled ? await fetchPosts() : [];
+const pageSize = blogPostsPerPage ?? 10;
+const firstPagePosts = posts.slice(0, pageSize);
+const hasNextPage = posts.length > pageSize;
+
+const metadata = {
+  title: 'Blog',
+  robots: {
+    index: blogListRobots?.index,
+    follow: blogListRobots?.follow,
+  },
+  openGraph: {
+    type: 'blog',
+  },
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
+    <Headline subtitle="Les dernières actualités sur Biblys">
+      Blog
+    </Headline>
+    <BlogList posts={firstPagePosts} />
+    <Pagination nextUrl={hasNextPage ? `/${BLOG_BASE}/page/2` : undefined} />
+  </section>
+</Layout>
