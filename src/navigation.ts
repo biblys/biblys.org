@@ -4,8 +4,7 @@ export const headerData = {
   links: [
     {
       text: 'Blog',
-      href: 'https://blog.biblys.fr',
-      target: '_blank',
+      href: '/blog',
     },
     {
       text: 'Documentation',
@@ -41,7 +40,7 @@ export const footerData = {
     {
       title: 'Ressources',
       links: [
-        { text: 'Blog', href: 'https://blog.biblys.fr', target: '_blank' },
+        { text: 'Blog', href: '/blog' },
         { text: 'Documentation', href: 'https://docs.biblys.fr', target: '_blank' },
         { text: 'Code source', href: 'https://github.com/biblys/biblys', target: '_blank' },
       ],
@@ -56,7 +55,7 @@ export const footerData = {
       icon: 'tabler:brand-bluesky',
       href: 'https://bsky.app/profile/clemlatz.dev',
     },
-    { ariaLabel: 'Flux RSS', icon: 'tabler:rss', href: 'https://blog.biblys.org/rss.xml' },
+    { ariaLabel: 'Flux RSS', icon: 'tabler:rss', href: '/rss.xml' },
   ],
   footNote: `© ${new Date().getFullYear()} Biblys`,
 };
