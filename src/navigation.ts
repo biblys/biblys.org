@@ -48,6 +48,15 @@ export const footerData = {
     },
   ],
   secondaryLinks: [],
-  socialLinks: [{ ariaLabel: 'Flux RSS', icon: 'tabler:rss', href: 'https://blog.biblys.org/rss.xml' }],
+  socialLinks: [
+    { ariaLabel: 'Code source sur Github', icon: 'tabler:brand-github', href: 'https://github.com/biblys/biblys' },
+    { ariaLabel: 'Suivre Biblys sur Mastodon', icon: 'tabler:brand-mastodon', href: 'https://mastodon.social/@biblys' },
+    {
+      ariaLabel: 'Suivre Clément Latzarus, le créateur de Biblys, sur Bluesky',
+      icon: 'tabler:brand-bluesky',
+      href: 'https://bsky.app/profile/clemlatz.dev',
+    },
+    { ariaLabel: 'Flux RSS', icon: 'tabler:rss', href: 'https://blog.biblys.org/rss.xml' },
+  ],
   footNote: `© ${new Date().getFullYear()} Biblys`,
 };
