@@ -1,5 +1,4 @@
 ---
-
 title: L'éditeur de thème
 image: ~/assets/images/post/96/5896.jpg
 published: true

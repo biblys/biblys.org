@@ -1,5 +1,4 @@
 ---
-
 title: 'Biblys 2.2 : Gestion des fichiers téléchargeables'
 image: ~/assets/images/post/11/4311.jpg
 published: true

@@ -1,6 +1,5 @@
 ---
-
-title: 'Lettre d''Ys n° 48 : la dernière Lettre d''Ys !'
+title: "Lettre d'Ys n° 48 : la dernière Lettre d'Ys !"
 image: ~/assets/images/post/90/5590.jpg
 published: true
 publishDate: 2016-01-05T00:00:00.000Z

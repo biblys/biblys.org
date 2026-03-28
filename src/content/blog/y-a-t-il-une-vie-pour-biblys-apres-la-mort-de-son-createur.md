@@ -1,5 +1,4 @@
 ---
-
 title: Y'a-t-il une vie (pour Biblys) après la mort (de son créateur) ?
 author: Clément Latzarus
 image: ~/assets/images/blog/y-a-t-il-une-vie-pour-biblys-apres-la-mort/cover.jpg

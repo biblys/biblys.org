@@ -1,6 +1,5 @@
 ---
-
-title: 'Lettre d''Ys (hors-série) : 50% de réduction chez Scylla pour fêter ses 10 ans'
+title: "Lettre d'Ys (hors-série) : 50% de réduction chez Scylla pour fêter ses 10 ans"
 published: true
 publishDate: 2014-02-01T00:00:00.000Z
 author: Clément Latzarus

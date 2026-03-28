@@ -1,5 +1,4 @@
 ---
-
 title: Bilan 2015 et perspectives 2016
 published: true
 publishDate: 2016-01-04T00:00:00.000Z

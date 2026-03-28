@@ -1,5 +1,4 @@
 ---
-
 title: Biblys intègre le prestataire de paiement PayPlug
 image: ~/assets/images/post/95/4695.jpg
 published: true

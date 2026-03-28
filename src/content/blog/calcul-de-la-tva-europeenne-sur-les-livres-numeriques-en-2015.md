@@ -1,5 +1,4 @@
 ---
-
 title: Calcul de la TVA européenne sur les livres numériques en 2015
 image: ~/assets/images/post/28/4728.jpg
 published: true

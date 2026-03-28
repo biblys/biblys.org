@@ -1,6 +1,5 @@
 ---
-
-title: 'Lettre d''Ys n° 47 : Une semaine pour participer au financement des Éditions Scylla !'
+title: "Lettre d'Ys n° 47 : Une semaine pour participer au financement des Éditions Scylla !"
 image: ~/assets/images/post/60/4860.jpg
 published: true
 publishDate: 2015-02-23T00:00:00.000Z

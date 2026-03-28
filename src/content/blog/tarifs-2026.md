@@ -1,5 +1,4 @@
 ---
-
 title: Tarifs 2026
 excerpt: Comme chaque année, avec le mois de septembre vient l'heure de faire le point sur l'évolution des tarifs Biblys. Les tarifs présentés dans cet article sont applicables à partir du 1er janvier 2026.
 image: ~/assets/images/blog/tarifs-2026.jpg
@@ -45,7 +44,7 @@ l’hébergeur [alwaysdata](https://www.alwaysdata.com/en/register/?from=215e2fb
 Comme annoncé l’année dernière, l’option Nom de domaine ne sera plus proposée à partir de 2027.
 
 Concrètement, cela signifie que **si vous ne récupérez pas votre nom de domaine, il sera renouvelé une dernière fois en
-2026, puis abandonné**. À partir du 1er janvier 2026, votre site sera accessible via une adresse sous la forme 
+2026, puis abandonné**. À partir du 1er janvier 2026, votre site sera accessible via une adresse sous la forme
 "nom-du-site.alwaysdata.net", adresse vers laquelle seront redirigés vos client·es
 s’ils saisissent votre nom de domaine dans la barre d’adresse de leur navigateur. **Cette redirection cessera de
 fonctionner à la disparition du domaine, courant 2027.**
@@ -79,6 +78,6 @@ Ces différentes évolutions ont deux objectifs :
 - Me permettre de dégager une petite rémunération pour la journée hebdomadaire que je consacre à Biblys.
 
 ---
+
 Image de couverture :  
 Photo de <a href="https://unsplash.com/fr/@blankerwahnsinn?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Fabian Blank</a> sur <a href="https://unsplash.com/fr/photos/figurine-de-cochon-rose-sur-surface-blanche-pElSkGRA2NU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-      

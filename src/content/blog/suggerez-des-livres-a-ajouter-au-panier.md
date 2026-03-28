@@ -1,5 +1,4 @@
 ---
-
 title: Suggérez des livres à ajouter au panier
 excerpt: Il est désormais possible, sur la page du panier, d’afficher une liste d’articles suggérés.
 author: Clément Latzarus

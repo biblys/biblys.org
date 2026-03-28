@@ -1,5 +1,4 @@
 ---
-
 title: "Dernière Lettre d'Ys avant la fin du monde (n°\_38 - Décembre 2012)"
 published: true
 publishDate: 2012-12-01T00:00:00.000Z

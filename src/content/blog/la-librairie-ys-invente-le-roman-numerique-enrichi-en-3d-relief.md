@@ -1,5 +1,4 @@
 ---
-
 title: La Librairie Ys invente le roman numérique enrichi en 3D-relief
 published: true
 publishDate: 2011-04-01T00:00:00.000Z

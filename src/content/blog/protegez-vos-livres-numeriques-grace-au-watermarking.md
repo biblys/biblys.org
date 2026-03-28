@@ -1,5 +1,4 @@
 ---
-
 title: Protégez vos livres numériques grâce au watermarking
 excerpt: Le principe du tatouage numérique est de modifier un fichier en y insérant une chaine de caractère unique, permettant son identification. Contrairement au DRM, l’idée n’est pas d’empêcher techniquement le partage du livre en rendant sa lecture difficile, mais d’en décourager le partage puisque celui ou celle qui s’y risquerait serait démasqué par cet identifiant unique.
 image: ~/assets/images/blog/protegez-vos-livres-numeriques-grace-au-watermarking/cover.jpg

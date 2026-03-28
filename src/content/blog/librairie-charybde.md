@@ -1,5 +1,4 @@
 ---
-
 title: Librairie Charybde
 published: true
 publishDate: 2011-11-28T00:00:00.000Z

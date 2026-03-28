@@ -1,5 +1,4 @@
 ---
-
 title: Une nouvelle interface d'administration pour Biblys
 image: ~/assets/images/post/10/6510.jpg
 published: true

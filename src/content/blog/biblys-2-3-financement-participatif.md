@@ -1,5 +1,4 @@
 ---
-
 title: 'Biblys 2.3 : Financement participatif'
 image: ~/assets/images/post/55/4855.jpg
 published: true

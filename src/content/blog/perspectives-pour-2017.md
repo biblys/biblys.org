@@ -1,5 +1,4 @@
 ---
-
 title: Perspectives pour 2017
 image: ~/assets/images/post/95/6495.jpg
 published: true

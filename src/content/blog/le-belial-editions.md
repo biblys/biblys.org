@@ -1,5 +1,4 @@
 ---
-
 title: Le Bélial' Éditions
 image: ~/assets/images/post/45/3145.jpg
 published: true

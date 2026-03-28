@@ -1,6 +1,5 @@
 ---
-
-title: 'La Lettre d''Ys n° 36 - Octobre 2012 : Rencontrez Moorcock, Spinrad et Robert Charles Wilson !'
+title: "La Lettre d'Ys n° 36 - Octobre 2012 : Rencontrez Moorcock, Spinrad et Robert Charles Wilson !"
 published: true
 publishDate: 2012-10-08T00:00:00.000Z
 author: Clément Latzarus

@@ -1,5 +1,4 @@
 ---
-
 title: Imaginales 2012
 published: true
 publishDate: 2012-03-26T00:00:00.000Z

@@ -1,5 +1,4 @@
 ---
-
 title: Comment l'obligation de certification des logiciels de caisse (NF525) affecte Biblys
 excerpt: La loi pour les finances 2025 fait évoluer l'obligation de certification des logiciels de caisse (norme NF525). Quelles sont les conséquences pour Biblys ?
 image: ~/assets/images/blog/certification-NF-525-logiciels-de-caisse.jpg
@@ -24,8 +23,8 @@ correspondance sur internet**. Les logiciels e-commerce sont en effet également
 
 L’article [En quoi consiste la certification des logiciels de caisse&nbsp;?](https://www.economie.gouv.fr/cedef/logiciels-caisse-certifies)
 précise les cas dans lesquels les professionnels de l'e-commerce sont concernés par l’obligation de certification. Il en
-ressort que “*les sociétés relevant de l'e-commerce non soumises à facturation du fait que leurs clients ne sont pas
-assujettis à la TVA (clients particuliers) relèvent du champ d'application du dispositif*”.
+ressort que “_les sociétés relevant de l'e-commerce non soumises à facturation du fait que leurs clients ne sont pas
+assujettis à la TVA (clients particuliers) relèvent du champ d'application du dispositif_”.
 
 Lire à ce sujet :
 
@@ -45,11 +44,11 @@ Une structure n’étant pas assujetti à la TVA n’est pas concerné par l’o
 Dans le cas des **micro-entreprises**, le seul de franchise de TVA est aujourd’hui à **85.000 €**, mais la loi de
 finances pour 2025 a abaissé le seul de franchise de TVA à **25.000 €** au 1er mars 2025, puis le ministère de
 l’Économie a suspendu cette mesure jusqu’au 1er juin 2025 pour “travailler avec les fédérations professionnelles et les
-parlementaires et proposer des adaptations” (source : 
+parlementaires et proposer des adaptations” (source :
 [Franchise en base de TVA](https://entreprendre.service-public.fr/vosdroits/F21746)).
 
 Les **associations à but non lucratif** peuvent également être exonérées de TVA selon certaines conditions, dont
-notamment un chiffre d’affaires inférieur, depuis le 1er janvier 2025, à **85.000 €** (source : 
+notamment un chiffre d’affaires inférieur, depuis le 1er janvier 2025, à **85.000 €** (source :
 [L’exception: l’assujettissement aux impôts commerciaux](https://www.associatheque.fr/fr/fiscalite-des-associations/tva.html)).
 
 ### “Entreprises dont l'intégralité des paiements est réalisée avec l'intermédiation directe d’un établissement de crédit.”
@@ -121,9 +120,10 @@ Courant mars, un certain nombre d’évolutions vont permettre à Biblys de se m
 - [Qui veut la peau des logiciels libres de caisse ?](https://www.april.org/qui-veut-la-peau-des-logiciels-libres-de-caisse) (april.org)
 
 ---
+
 Illustration de couverture :  
 Photo
 de <a href="https://unsplash.com/fr/@evergreensanddandelions?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
 Evergreens & Dandelions</a>
 sur <a href="https://unsplash.com/fr/photos/photo-en-niveaux-de-gris-dun-outil-rond-en-metal-JIhlZbUNgns?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
-Unsplash</a> 
+Unsplash</a>

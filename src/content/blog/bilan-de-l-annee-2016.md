@@ -1,5 +1,4 @@
 ---
-
 title: Bilan de l'année 2016
 image: ~/assets/images/post/82/6482.jpg
 published: true

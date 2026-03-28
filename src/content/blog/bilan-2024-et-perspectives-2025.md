@@ -1,5 +1,4 @@
 ---
-
 title: Bilan 2024 et perspectives 2025
 excerpt: En 2024, Biblys est devenu un logiciel libre, et a permis à quatorze librairies et maisons d’édition indépendantes de vendre 25272 livres à 3579 client·es uniques pour un chiffre d’affaires total de 339.074 € !
 image: ~/assets/images/blog/bilan-2024-et-perspectives-2025/cover.jpg
@@ -16,7 +15,7 @@ vendre :
 - pour un chiffre d’affaires total de 339.074 € !
 
 C’est donc une belle progression (18%) par rapport aux
-[21.432 livres qui avaient été vendus en 2024](/posts/bilan-2023-et-perspectives-2024/), 
+[21.432 livres qui avaient été vendus en 2024](/posts/bilan-2023-et-perspectives-2024/),
 avec un score qui dépasse même celui des années covid. Et si l’augmentation du chiffre d’affaires peut sans doute être
 en partie impartie imputée à l’inflation, je suis heureux de voir que Biblys permet à toujours plus de livres
 d’atteindre leur lecteur·ices, avec notamment l’ouverture de trois nouveaux sites de maisons d’édition en 2024 !
@@ -184,6 +183,7 @@ Il ne me reste qu'à vous souhaiter à toutes et tous une excellente année 2025
 Clément
 
 ---
+
 Illustration de couverture :
 Photo de
 <a href="https://unsplash.com/fr/@itfeelslikefilm?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
@@ -193,4 +193,3 @@ sur
 <a href="https://unsplash.com/fr/photos/photo-de-bibliotheque-avec-lumieres-allumees-sfL_QOnmy00?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
 Unsplash
 </a>
-      

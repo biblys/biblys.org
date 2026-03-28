@@ -1,5 +1,4 @@
 ---
-
 title: Pourquoi il faut faire passer l’amendement sur la TVA des livres numériques
 excerpt: Quelques éléments pour comprendre les enjeux derrière cet amendement au projet de Loi de finances 2014 sur le prix du livre a été déposé la semaine dernière par la députée Isabelle Attard et adopté à l’assemblée nationale, avant d’être immédiatement retiré à la demande du gouvernement.
 author: Clément Latzarus

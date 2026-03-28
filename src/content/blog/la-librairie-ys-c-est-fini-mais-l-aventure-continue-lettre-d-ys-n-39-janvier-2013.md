@@ -1,5 +1,4 @@
 ---
-
 title: La Librairie Ys, c'est fini... mais l'aventure continue ! (Lettre d'Ys n° 39 - Janvier 2013)
 published: true
 publishDate: 2013-01-01T00:00:00.000Z

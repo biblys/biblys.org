@@ -1,5 +1,4 @@
 ---
-
 title: Une nouvelle page de paiement
 excerpt: La page de paiement des commandes Biblys a été significativement améliorée, avec l'objectif rendre le paiement plus intuitif, et ainsi de réduire les abandons de panier, les incidents de paiement et les questions des client·es.
 image: ~/assets/images/blog/nouvelle-page-de-paiement/cover.jpg
@@ -66,10 +65,9 @@ qui permettront, à l’avenir, de faire évoluer plus facilement cette page tou
 bugs.
 
 ---
+
 Illustration de couverture :  
 Photo de <a href="https://unsplash.com/fr/@cardmapr?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
 CardMapr.nl</a>
 sur <a href="https://unsplash.com/fr/photos/carte-visa-bleue-et-blanche-sur-ordinateur-portable-argente-s8F8yglbpjo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
 Unsplash</a>
-      
-      

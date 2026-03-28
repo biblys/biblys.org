@@ -1,5 +1,4 @@
 ---
-
 title: Biblys intègre le prestataire de paiement Stripe
 image: ~/assets/images/post/60/9460.jpg
 published: true

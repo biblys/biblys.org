@@ -1,6 +1,5 @@
 ---
-
-title: 'Lettre d''Ys n° 42 : Promotions sur l''occasion et le numérique'
+title: "Lettre d'Ys n° 42 : Promotions sur l'occasion et le numérique"
 published: true
 publishDate: 2013-10-29T00:00:00.000Z
 author: Clément Latzarus

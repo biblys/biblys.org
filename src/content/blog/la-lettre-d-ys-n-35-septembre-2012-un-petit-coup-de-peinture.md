@@ -1,6 +1,5 @@
 ---
-
-title: 'La Lettre d''Ys n° 35 - Septembre 2012 : Un petit coup de peinture'
+title: "La Lettre d'Ys n° 35 - Septembre 2012 : Un petit coup de peinture"
 published: true
 publishDate: 2012-09-02T00:00:00.000Z
 author: Clément Latzarus

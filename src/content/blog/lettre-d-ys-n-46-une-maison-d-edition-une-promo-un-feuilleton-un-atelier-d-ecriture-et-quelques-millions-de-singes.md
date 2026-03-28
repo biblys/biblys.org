@@ -1,5 +1,4 @@
 ---
-
 title: 'Lettre d’Ys n° 46 : Une maison d’édition, une promo, un feuilleton, un atelier d’écriture et quelques millions de singes'
 image: ~/assets/images/post/91/4791.jpg
 published: true

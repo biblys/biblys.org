@@ -1,5 +1,4 @@
 ---
-
 title: "Lettre d’Ys n° 43 : La librairie Scylla fête ses 10 ans\_!"
 published: true
 publishDate: 2014-01-10T00:00:00.000Z

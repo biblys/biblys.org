@@ -1,6 +1,5 @@
 ---
-
-title: 'Lettre d''Ys n° 45 : Un moteur de recherche, une promotion, DraftQuest et le Salon du Livre !'
+title: "Lettre d'Ys n° 45 : Un moteur de recherche, une promotion, DraftQuest et le Salon du Livre !"
 published: true
 publishDate: 2014-03-22T00:00:00.000Z
 author: Clément Latzarus

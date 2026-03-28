@@ -1,5 +1,4 @@
 ---
-
 title: Plus de souplesse pour le port
 excerpt: La mise à jour de Biblys de juillet 2025 (3.7) a introduit une refonte de la gestion des tarifs d'expédition, offrant plus de flexibilité.
 image: ~/assets/images/blog/plus-de-souplesse-pour-le-port/cover.jpg
@@ -20,7 +19,7 @@ un découpage différent des zones géographiques.
 
 ![La page affichant les zones d'expédition](../../assets/images/blog/plus-de-souplesse-pour-le-port/zones-tarifaires.png)
 
-Désormais, il est possible non seulement de visualiser quels sont les pays concernés par chaque zone d'expédition, mais 
+Désormais, il est possible non seulement de visualiser quels sont les pays concernés par chaque zone d'expédition, mais
 aussi d'en ajouter ou d'en retirer d'une zone.
 
 ![La page affichant tous les pays d'une zone d'expédition](../../assets/images/blog/plus-de-souplesse-pour-le-port/pays-d-une-zone-tarifaire.png)
@@ -33,11 +32,8 @@ d'y associer ensuite les pays concernés.
 Pour tout savoir sur la configuration de l'expédition sur votre site Biblys consultez la page [Expédition](https://docs.biblys.org/configurer/expedition/) de la documentation.
 
 ---
+
 Illustration de couverture : photo de <a href="https://unsplash.com/fr/@abject?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
 benjamin lehman</a>
 sur <a href="https://unsplash.com/fr/photos/montgolfiere-rouge-dans-les-airs-pendant-la-journee--3Aqpdt-wQ4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
 Unsplash</a>
-      
-      
-      
-      

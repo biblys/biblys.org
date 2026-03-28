@@ -1,5 +1,4 @@
 ---
-
 title: La Librairie du Voyageur, propulsée par Biblys
 image: ~/assets/images/post/23/6423.jpg
 published: true

@@ -1,5 +1,4 @@
 ---
-
 title: 'Biblys 2.1 : Nouveau moteur de recherche pour les librairies'
 image: ~/assets/images/post/17/4017.jpg
 published: true

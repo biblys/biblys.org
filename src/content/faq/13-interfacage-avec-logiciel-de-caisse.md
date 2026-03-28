@@ -9,5 +9,5 @@ en supprimant manuellement les livres du stock Biblys vendus en magasin, et inve
 Si vous êtes libraire et disposez déjà d'un logiciel de caisse, nous vous conseillons de vous tourner vers votre
 prestataire qui pourra vous proposer des solutions compatibles avec ce logiciel.
 
-Si vous n'avez pas encore de logiciel de caisse, vous pouvez envisager d'utiliser Abelujo (https://abelujo.cc/), un 
+Si vous n'avez pas encore de logiciel de caisse, vous pouvez envisager d'utiliser Abelujo (https://abelujo.cc/), un
 logiciel de caisse libre et gratuit, qui propose aussi une option pour la vente en ligne.

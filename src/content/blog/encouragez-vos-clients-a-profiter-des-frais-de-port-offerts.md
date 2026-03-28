@@ -1,5 +1,4 @@
 ---
-
 title: Encouragez vos clients à profiter des frais de ports offerts
 excerpt: Comment faire savoir à vos clients que les frais de ports sont offerts à partir de 35,00 € d'achat ?
 image: ~/assets/images/blog/encouragez-vos-clients-a-profiter-des-frais-de-port-offerts/cover.png

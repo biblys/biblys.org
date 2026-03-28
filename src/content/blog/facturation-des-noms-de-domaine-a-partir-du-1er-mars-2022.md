@@ -1,5 +1,4 @@
 ---
-
 title: Facturation des noms de domaine à partir du 1er mars 2022
 image: ~/assets/images/post/09/10509.jpg
 published: true
