@@ -219,6 +219,7 @@ export interface Hero extends Omit<Headline, 'classes'>, Omit<Widget, 'isDark' |
   content?: string;
   actions?: string | CallToAction[];
   image?: string | unknown;
+  imageCaption?: string;
 }
 
 export interface Team extends Omit<Headline, 'classes'>, Widget {
@@ -231,6 +232,7 @@ export interface Stats extends Omit<Headline, 'classes'>, Widget {
 
 export interface Pricing extends Omit<Headline, 'classes'>, Widget {
   prices?: Array<Price>;
+  columns?: number;
 }
 
 export interface Testimonials extends Omit<Headline, 'classes'>, Widget {
