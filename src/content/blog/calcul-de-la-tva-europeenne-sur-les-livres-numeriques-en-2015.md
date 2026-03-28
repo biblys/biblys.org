@@ -1,12 +1,13 @@
 ---
+
 title: Calcul de la TVA européenne sur les livres numériques en 2015
-image: https://www.biblys.fr/images/post/28/4728.jpg
+image: ~/assets/images/post/28/4728.jpg
 published: true
 publishDate: 2015-01-19T00:00:00.000Z
 author: Clément Latzarus
 ---
 
-**En 2015, le calcul de la TVA sur le livre numérique a changé. Biblys s&#039;adapte et propose [un module open-source](http://www.biblys.fr/pages/open-source) utilisable dans d&#039;autres applications.**
+**En 2015, le calcul de la TVA sur le livre numérique a changé. Biblys s&#039;adapte et propose [un module open-source](/pages/open-source) utilisable dans d&#039;autres applications.**
 
 Conformément à [la directive européenne 2008/8/CE](http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2008:044:0011:0022:FR:PDF), depuis le 1er janvier 2015, le taux de TVA applicable pour les &quot;services en ligne&quot; n&#039;est plus celui du pays du vendeur, mais [celui du pays du consommateur](http://www.service-public.fr/professionnels-entreprises/actualites/001024.html). Les livres électroniques, parmi d&#039;autres produits immatériels, étant considérés dans le cadre de cette loi comme des services en ligne, un grand nombre de sites propulsés par Biblys sont concernés.
 
@@ -21,7 +22,7 @@ La démarche, qui vise à diminuer l&#039;intérêt pour des multinationales de 
 
 Si l&#039;on considère que les sites propulsés par Biblys permettent d&#039;acheter à la fois des livres papiers et des livres numériques, cela devient un véritable casse-tête. Il a fallu donc repenser entièrement la manière dont la TVA est calculée, prendre en compte les taux de l&#039;ensemble des pays européens pour chaque type de produit, sans oublier que ces taux peuvent évoluer à tout moment...
 
-La dernière version de Biblys contient un module créé pour l&#039;occasion, permettant de calculer correctement la TVA en prenant en compte tous les facteurs qui entrent en jeu. [Ce module étant open-source](http://www.biblys.fr/pages/open-source), il peut facilement être réutilisé par une autre application utilisant aussi PHP.
+La dernière version de Biblys contient un module créé pour l&#039;occasion, permettant de calculer correctement la TVA en prenant en compte tous les facteurs qui entrent en jeu. [Ce module étant open-source](/pages/open-source), il peut facilement être réutilisé par une autre application utilisant aussi PHP.
 
 Cette mise à jour est gratuite et disponible dès aujourd&#039;hui pour tous les sites Biblys.
 

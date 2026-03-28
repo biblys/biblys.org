@@ -1,6 +1,7 @@
 ---
+
 title: Biblys Analytics
-image: https://www.biblys.fr/images/post/07/9007.jpg
+image: ~/assets/images/post/07/9007.jpg
 published: true
 publishDate: 2020-03-12T00:00:00.000Z
 author: Clément Latzarus
@@ -32,7 +33,7 @@ Enfin, il est à noter que Matomo respecte l’instruction DoNotTrack des naviga
 
 Vous pouvez accéder à Biblys Analytics depuis la section **Site** de l’administration de votre site Biblys.
 
-![IMG_0925.PNG](https://www.biblys.fr/biblys/media/blog/analytics.png)
+![IMG_0925.PNG](/biblys/media/blog/analytics.png)
 
 ### &lt;a id=&quot;Pourquoi_mes_statistiques_varientelles_de_Google**Biblys_Analytics**45&quot;&gt;&lt;/a&gt;Pourquoi mes statistiques varient-elles de Google à Biblys Analytics ?
 

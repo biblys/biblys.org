@@ -1,15 +1,16 @@
 ---
+
 title: 'Lettre d’Ys n° 44 : 3 livres numériques à 0,99 € et un quatrième à débloquer'
 published: true
 publishDate: 2014-02-21T00:00:00.000Z
 author: Clément Latzarus
 ---
 
-_La lettre d’Ys c’est, une fois par mois, toute l’actualité des sites du réseau [Biblys](http://www.biblys.fr)._
+_La lettre d’Ys c’est, une fois par mois, toute l’actualité des sites du réseau [Biblys](http://legacy.biblys.net/)._
 
 ### Opération #Belial500
 
-[![](http://www.biblys.fr/biblys/media/newsletters/n44-belial500.jpg)](http://www.belial.fr/pages/ope500)
+[![](/biblys/media/newsletters/n44-belial500.jpg)](http://www.belial.fr/pages/ope500)
 
 Jusqu’au 23 février (c’est-à-dire ce dimanche), [Le Bélial’](http://www.belial.fr/pages/ope500) vous propose 3 livres numériques à 0,99 €
 
@@ -26,7 +27,7 @@ N’hésitez donc pas à [participer à l’opération](http://www.belial.fr/pag
 
 ### Citriq : une extension pour Wordpress et des fonctions PHP/Python
 
-[![](http://www.biblys.fr/biblys/media/newsletters/n44-citriq-wordress.jpg)](http://nokto.net/citriq-wordpress-plugin/)
+[![](/biblys/media/newsletters/n44-citriq-wordress.jpg)](http://nokto.net/citriq-wordpress-plugin/)
 
 [Citriq](http://citriq.net), moteur de recherche de critique littéraire et d’échanges de liens, vient de se doter d’une [extension Wordpress](http://nokto.net/citriq-wordpress-plugin/). Très pratique, elle permet aux utilisateurs de Wordpress de faire référencer automatiquement leurs critiques littéraires sur Citriq sans avoir à le faire manuellement sur le site pour chacune. Elle permet en outre de fournir à Citriq de nombreuses informations comme : le nom de l’auteur de la critique, une note, une date de publication ou encore un extrait ! Elle est bien entendu disponible gratuitement et facile à installer.
 
@@ -37,7 +38,7 @@ Pour les plus bricoleurs, il est aussi possible d’exploiter directement l’AP
 
 ### Les Chambres inquiètes de Lisa Tuttle en précommande
 
-[![](http://www.biblys.fr/biblys/media/newsletters/n44-chambres-inquietes-lisa-tuttle.jpg)](http://editions.dystopia.fr/lisa-tuttle/les-chambres-inquietes)
+[![](/biblys/media/newsletters/n44-chambres-inquietes-lisa-tuttle.jpg)](http://editions.dystopia.fr/lisa-tuttle/les-chambres-inquietes)
 
 Il y a trois ans, Dystopia publiait [Ainsi naissent les fantômes](http://editions.dystopia.fr/lisa-tuttle/ainsi-naissent-les-fantomes), recueil de nouvelles inédites de Lisa Tuttle sélectionnées, traduites et présentées par Mélanie Fazi. Le livre, également disponible [en version numérique](http://editions.dystopia.fr/lisa-tuttle/ainsi-naissent-les-fantomes_numerique), a été récompensé par le Grand Prix de l’Imaginaire en 2012.
 
@@ -62,8 +63,8 @@ Outre les Dystopiales, la librairie Charybde organise comme toujours de nombreux
 
 _Ainsi s’achève la 44ème Lettre d’Ys, envoyée le 21 février 2014 à 4248 heureux élus. Rendez-vous au mois de mars pour la quarante-cinquième livraison de cette modeste publication !_
 
-Bonnes lectures et à très bientôt sur les sites du réseau [Biblys](http://www.biblys.fr),
+Bonnes lectures et à très bientôt sur les sites du réseau [Biblys](http://legacy.biblys.net/),
 
 Clément
 
-PS : J&#039;ai lu récemment [Un logique nommé Joe](http://www.biblys.fr/murray-leinster/un-logique-nomme-joe) de Murray Leinster, publié dans la collection Dyschroniques des éditions Le Passager clandestin, un livre étonnamment visionnaire qui décrit dans les années 40 un réseau informatique mondial qui ressemble fort à l&#039;Internet des années 2010. Surprenant ! [Mon avis détaillé](http://nokto.net/un-logique-nomme-joe-de-murray-leinster/).
+PS : J&#039;ai lu récemment [Un logique nommé Joe](/murray-leinster/un-logique-nomme-joe) de Murray Leinster, publié dans la collection Dyschroniques des éditions Le Passager clandestin, un livre étonnamment visionnaire qui décrit dans les années 40 un réseau informatique mondial qui ressemble fort à l&#039;Internet des années 2010. Surprenant ! [Mon avis détaillé](http://nokto.net/un-logique-nomme-joe-de-murray-leinster/).

@@ -1,6 +1,7 @@
 ---
+
 title: Perspectives pour 2017
-image: https://www.biblys.fr/images/post/95/6495.jpg
+image: ~/assets/images/post/95/6495.jpg
 published: true
 publishDate: 2017-01-10T00:00:00.000Z
 author: Clément Latzarus
@@ -8,7 +9,7 @@ author: Clément Latzarus
 
 « In the steel jaw. » CC [BY-NC-BD](https://creativecommons.org/licenses/by-nc-nd/2.0/) [Jérémy Lelièvre](https://www.flickr.com/photos/jrmllvr/9468996737/in/album-72157643810081383/)
 
-Après un billet consacré aux [évolutions de Biblys au cours de l’année 2016](https://www.biblys.fr/blog/bilan-de-l-annee-2016), il est de temps de faire le point sur les perspectives pour l’année à venir, et au-delà.
+Après un billet consacré aux [évolutions de Biblys au cours de l’année 2016](/blog/bilan-de-l-annee-2016), il est de temps de faire le point sur les perspectives pour l’année à venir, et au-delà.
 
 ### Des améliorations tout au long de l’année
 

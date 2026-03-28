@@ -1,6 +1,7 @@
 ---
+
 title: Biblys intègre le prestataire de paiement Stripe
-image: https://www.biblys.fr/images/post/60/9460.jpg
+image: ~/assets/images/post/60/9460.jpg
 published: true
 publishDate: 2020-07-15T00:00:00.000Z
 author: Clément Latzarus
@@ -56,4 +57,4 @@ Biblys propose désormais trois prestataires de paiement par carte bancaire : St
 
 ## Comment passer à Stripe ?
 
-C’est simple, il suffit de [créer votre compte Stripe](https://dashboard.stripe.com/register) puis de [créer un accès développeur](https://www.biblys.fr/pages/stripe-creer-un-acces-developpeur) pour Biblys.
+C’est simple, il suffit de [créer votre compte Stripe](https://dashboard.stripe.com/register) puis de [créer un accès développeur](/pages/stripe-creer-un-acces-developpeur) pour Biblys.

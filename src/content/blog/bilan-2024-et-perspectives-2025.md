@@ -1,4 +1,5 @@
 ---
+
 title: Bilan 2024 et perspectives 2025
 excerpt: En 2024, Biblys est devenu un logiciel libre, et a permis à quatorze librairies et maisons d’édition indépendantes de vendre 25272 livres à 3579 client·es uniques pour un chiffre d’affaires total de 339.074 € !
 image: ~/assets/images/blog/bilan-2024-et-perspectives-2025/cover.jpg

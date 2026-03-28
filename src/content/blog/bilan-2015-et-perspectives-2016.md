@@ -1,4 +1,5 @@
 ---
+
 title: Bilan 2015 et perspectives 2016
 published: true
 publishDate: 2016-01-04T00:00:00.000Z
@@ -7,9 +8,9 @@ author: Clément Latzarus
 
 ### Résumé des épisodes précédents
 
-**J&#039;ai créé la première version de Biblys en 2008** pour les besoins de la [librairie Ys](http://www.biblys.fr/blog/la-librairie-ys-c-est-fini-mais-l-aventure-continue), ma librairie en ligne spécialisée en science-fiction. Dans les années qui ont suivies, j&#039;ai réutilisé Biblys pour de nombreux autres sites ([Le Bélial&#039;](http://www.belial.fr), [Les Imaginales](http://www.imaginales.fr), [Librairie Charybde](http://www.charybde.fr), [Éditions Dystopia](http://www.dystopia.fr), etc.) ce qui m&#039;a amené à créé une version 2 de Biblys, plus polyvalente. En 2013, **j&#039;ai cessé mon activité de librairie** pour me consacrer entièrement au développement web.
+**J&#039;ai créé la première version de Biblys en 2008** pour les besoins de la [librairie Ys](/blog/la-librairie-ys-c-est-fini-mais-l-aventure-continue), ma librairie en ligne spécialisée en science-fiction. Dans les années qui ont suivies, j&#039;ai réutilisé Biblys pour de nombreux autres sites ([Le Bélial&#039;](http://www.belial.fr), [Les Imaginales](http://www.imaginales.fr), [Librairie Charybde](http://www.charybde.fr), [Éditions Dystopia](http://www.dystopia.fr), etc.) ce qui m&#039;a amené à créé une version 2 de Biblys, plus polyvalente. En 2013, **j&#039;ai cessé mon activité de librairie** pour me consacrer entièrement au développement web.
 
-![Tys, robot mascotte de la librairie Ys](http://www.biblys.fr/biblys/media/blog/tys.jpg)
+![Tys, robot mascotte de la librairie Ys](/biblys/media/blog/tys.jpg)
 
 L&#039;idée était alors de faire de Biblys **un outil &quot;tout-en-un&quot; au service de l&#039;édition indépendante** &lt;span style=&quot;line-height: 1.6;&quot;&gt;(libraires, éditeurs, salons littéraires, etc.). Un logiciel utilisable dans un navigateur, qui permettait de gérer non seulement un site web avec vente par correspondance et vente de livres numériques mais aussi la vente en magasin et sur salon avec une caisse, la gestion du stock et de la comptabilité, d&#039;une newsletter, d&#039;un blog, d&#039;un forum, du financement participatif, etc. Plutôt que de facturer une grosse somme pour la construction d&#039;un site puis de me laisser ensuite mes clients se débrouiller avec, je proposais un abonnement mensuel de 100 € comprenant l&#039;installation, l&#039;hébergement et la maintenance d&#039;une instance Biblys avec la promesse de faire &lt;/span&gt;**évoluer le logiciel en fonction de leurs besoins**&lt;span style=&quot;line-height: 1.6;&quot;&gt;.&lt;/span&gt;
 
@@ -22,7 +23,7 @@ Si j&#039;ai cessé d&#039;accepter de nouveaux clients au début de l&#039;ann�
 - **le financement participatif**, [utilisé avec succès par les éditions Scylla](http://editions.scylla.fr/financement/lancement-editions-scylla) il y a un an ;
 - **la liste d&#039;envies**, déjà utilisée sur les sites des librairies Charybde et Scylla et depuis peu sur le site des editions Dystopia.
 
-![La liste d'envies Biblys](http://www.biblys.fr/biblys/media/newsletters/n46-wishlist.png)
+![La liste d'envies Biblys](/biblys/media/newsletters/n46-wishlist.png)
 
 Mais **les changements les plus importants sont ceux qui ont eu lieu sous le capo**t — refactorisation du code, correction de bugs et de failles de sécurité — et qui sont le reflet de ma maturité en tant que développeur auto-didacte. Le gros chantier, toujours en cours, a été la réécriture de Biblys sous la forme d&#039;un framework MVC, avec l&#039;intégration de composants Symfony 2 (HttpFoundation, Router, etc.) et de l&#039;ORM Doctrine. **L&#039;objectif étant d&#039;apporter plus de stabilité, de sécurité, de rapidité** mais aussi de préparer le terrain pour la prochaine version de Biblys.
 
@@ -32,7 +33,7 @@ Mais **les changements les plus importants sont ceux qui ont eu lieu sous le cap
 
 2016 sera, je l&#039;espère, l&#039;année qui verra la sortie de **la troisième version de Biblys**. Cette itération abandonnera l&#039;idée, trop ambitieuse, du site tout-en-un, pour se concentrer sur **ce que Biblys fait de mieux** : la vente de livres (papier, numérique, par correspondance, sur site, etc.). Un système de plugin permettra toutefois d&#039;ajouter des fonctionnalités pour répondre à des besoins plus spécifiques sans pour autant alourdir les sites qui n&#039;en ont pas besoin.
 
-![](http://www.biblys.fr/biblys/media/blog/open-source.png)
+![](/biblys/media/blog/open-source.png)
 
 **Biblys 3 sera open source**. Cela signifie que **n&#039;importe qui pourra télécharger, installer et utiliser Biblys** pour gérer son site web, sans contrepartie financière, mais aussi, le modifier pour l&#039;adapter à ses besoins, voire contribuer au projet. J&#039;espère que cela permettra à Biblys de devenir **LA solution e-commerce pour les petits éditeurs et les libraires indépendants** qui ne souhaitent pas investir des sommes astronomiques sur ce terrain. Pour ceux qui ne souhaitent pas s&#039;embarrasser de la technique, je proposerai toujours une solution SAAS comprenant l&#039;hébergement et le support technique à un tarif qui reste à définir, mais qui sera de toute façon bien moins onéreux que l&#039;abonnement actuel.
 
@@ -54,6 +55,6 @@ Là encore, **Biblys.me disposera d&#039;une API publique** permettant à n&#039
 
 ### Pour finir
 
-Ces projets sont ambitieux. Certains sont bien avancés, d&#039;autres ne sont que des ébauches dans un coin de ma tête. Si vous êtes intéressé et souhaitez être tenu au courant de leur avancées, n&#039;hésitez pas à [me le faire savoir](http://www.biblys.fr/pages/contact).
+Ces projets sont ambitieux. Certains sont bien avancés, d&#039;autres ne sont que des ébauches dans un coin de ma tête. Si vous êtes intéressé et souhaitez être tenu au courant de leur avancées, n&#039;hésitez pas à [me le faire savoir](/pages/contact).
 
 **En attendant, excellente année 2016 à tous !**

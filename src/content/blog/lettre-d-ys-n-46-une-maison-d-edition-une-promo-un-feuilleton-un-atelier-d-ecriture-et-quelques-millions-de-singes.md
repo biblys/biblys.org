@@ -1,12 +1,13 @@
 ---
+
 title: 'Lettre d’Ys n° 46 : Une maison d’édition, une promo, un feuilleton, un atelier d’écriture et quelques millions de singes'
-image: https://www.biblys.fr/images/post/91/4791.jpg
+image: ~/assets/images/post/91/4791.jpg
 published: true
 publishDate: 2015-01-23T00:00:00.000Z
 author: Clément Latzarus
 ---
 
-La Lettre d’Ys c’est, &lt;s&gt;une fois par mois&lt;/s&gt; de temps en temps, toute l’actualité des sites du réseau [Biblys](http://www.biblys.fr). Pour cette première lettre de l&#039;année 2015 (que je vous souhaite excellente), une programme chargé !
+La Lettre d’Ys c’est, &lt;s&gt;une fois par mois&lt;/s&gt; de temps en temps, toute l’actualité des sites du réseau [Biblys](http://legacy.biblys.net/). Pour cette première lettre de l&#039;année 2015 (que je vous souhaite excellente), une programme chargé !
 
 ### Lancement des éditions Scylla en financement participatif
 
@@ -26,7 +27,7 @@ Vous pourrez en apprendre plus sur le projet de la maison d’édition et sur le
 
 Une nouveauté discrète mais bien pratique a fait son apparition sur les sites des librairies [Charybde](http://www.charybde.fr/) (qui a, au passage, bénéficié d’un lifting complet) et [Scylla](http://www.scylla.fr). Vous trouverez désormais, un peu partout sur ces sites, des petits boutons en forme de coeur. Il vous suffit de cliquer dessus pour ajouter un livre à votre liste d’envies !
 
-![](http://www.biblys.fr/biblys/media/newsletters/n46-wishlist.png)
+![](/biblys/media/newsletters/n46-wishlist.png)
 
 Vous pouvez dès aujourd’hui utiliser cette liste pour mémoriser les livres qui vous intéressent mais aussi la partager avec vos proches pour vous faire offrir des livres ! Dans un avenir proche, il sera aussi possible de créer plusieurs listes, publiques ou privées, et d’indiquer pour chacune une adresse pour vous faire envoyer directement les livres.
 
@@ -72,16 +73,16 @@ Sur Facebook, vous pouvez aussi suivre la page [X Million Monkeys](https://www.f
 
 ### Des composants Biblys open-source
 
-Si [Biblys](http://www.biblys.fr) est un logiciel propriétaire (c’est-à-dire que je suis le seul à pouvoir consulter et modifier le code source), il utilise, comme beaucoup, de nombreux logiciels et composants open-source (dont tout le monde peut consulter le code ou réutiliser librement), ce qui me permet de gagner beaucoup de temps.
+Si [Biblys](http://legacy.biblys.net/) est un logiciel propriétaire (c’est-à-dire que je suis le seul à pouvoir consulter et modifier le code source), il utilise, comme beaucoup, de nombreux logiciels et composants open-source (dont tout le monde peut consulter le code ou réutiliser librement), ce qui me permet de gagner beaucoup de temps.
 
-Parce qu&#039;il me semble normal de donner à la communauté en retour, j’ai ouvert [une section open-source](http://www.biblys.fr/pages/open-source) sur le site Biblys ainsi qu’un [profil Github](https://github.com/biblys). On y trouve par exemple des outils pour [nettoyer un fichier ePub](https://github.com/biblys/php-epub-cleaner) ou [valider et convertir des codes ISBN](https://github.com/biblys/php-isbn-class).
+Parce qu&#039;il me semble normal de donner à la communauté en retour, j’ai ouvert [une section open-source](/pages/open-source) sur le site Biblys ainsi qu’un [profil Github](https://github.com/biblys). On y trouve par exemple des outils pour [nettoyer un fichier ePub](https://github.com/biblys/php-epub-cleaner) ou [valider et convertir des codes ISBN](https://github.com/biblys/php-isbn-class).
 
-Dernier en date, [biblys/eurotax](https://github.com/biblys/eurotax) est un composant qui permet de résoudre facilement le casse-tête d&#039;une nouvelle directive européenne concernant la TVA. Celle-ci implique en effet que le taux à prendre en compte pour la vente de livres numérique n’est plus celui du pays du libraire, mais celui du prix du client. Si ce sujet un peu technique vous intéresse, vous pourrez en apprendre plus [sur le blog Biblys](http://www.biblys.fr/blog/calcul-de-la-tva-europeenne-sur-les-livres-numeriques-en-2015).
+Dernier en date, [biblys/eurotax](https://github.com/biblys/eurotax) est un composant qui permet de résoudre facilement le casse-tête d&#039;une nouvelle directive européenne concernant la TVA. Celle-ci implique en effet que le taux à prendre en compte pour la vente de livres numérique n’est plus celui du pays du libraire, mais celui du prix du client. Si ce sujet un peu technique vous intéresse, vous pourrez en apprendre plus [sur le blog Biblys](/blog/calcul-de-la-tva-europeenne-sur-les-livres-numeriques-en-2015).
 
 —
 
 Ainsi s’achève la 46ème Lettre d’Ys, envoyée le 23 janvier 2015 à 4466 fervents lecteurs. Rendez-vous &lt;s&gt;le mois prochain&lt;/s&gt; un de ces quatre pour la quarante-septième livraison de cette modeste publication !
 
-Bonnes lectures et à très bientôt sur les sites du réseau [Biblys](http://www.biblys.fr), sur [Twitter](http://www.twitter.com/biblys) et sur [Facebook](https://www.facebook.com/biblys.fr) !
+Bonnes lectures et à très bientôt sur les sites du réseau [Biblys](http://legacy.biblys.net/), sur [Twitter](http://www.twitter.com/biblys) et sur [Facebook](https://www.facebook.com/biblys.fr) !
 
 Clément

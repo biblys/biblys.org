@@ -1,4 +1,5 @@
 ---
+
 title: Une nouvelle page de paiement
 excerpt: La page de paiement des commandes Biblys a été significativement améliorée, avec l'objectif rendre le paiement plus intuitif, et ainsi de réduire les abandons de panier, les incidents de paiement et les questions des client·es.
 image: ~/assets/images/blog/nouvelle-page-de-paiement/cover.jpg

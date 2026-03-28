@@ -1,4 +1,5 @@
 ---
+
 title: 'Loi sur les frais de port : êtes-vous prêt ?'
 excerpt: La loi Darcos, rendant obligatoire un tarif minimal de 3,00 € de frais de port pour le livre, entrera en vigueur le 7 octobre 2023. C'est demain !
 image: ~/assets/images/blog/loi-sur-les-frais-de-port-etes-vous-pret/cover.jpg
@@ -22,7 +23,7 @@ apparaissent en jaune, précédés du sigle ⚠️.
 
 ## 🙇 Merci de votre attention !
 
-N’hésitez pas à [me contacter](https://www.biblys.fr/contact/) pour me faire part de vos questions et remarques.
+N’hésitez pas à [me contacter](/contact/) pour me faire part de vos questions et remarques.
 Envie d'en discuter ? [Prenez rendez-vous](https://cal.com/clemlatz/rdv) pour un appel en visio !
 
 ---

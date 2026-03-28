@@ -1,4 +1,5 @@
 ---
+
 title: Tarifs 2026
 excerpt: Comme chaque année, avec le mois de septembre vient l'heure de faire le point sur l'évolution des tarifs Biblys. Les tarifs présentés dans cet article sont applicables à partir du 1er janvier 2026.
 image: ~/assets/images/blog/tarifs-2026.jpg

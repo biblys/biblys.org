@@ -1,22 +1,23 @@
 ---
+
 title: 'Lettre d''Ys n° 45 : Un moteur de recherche, une promotion, DraftQuest et le Salon du Livre !'
 published: true
 publishDate: 2014-03-22T00:00:00.000Z
 author: Clément Latzarus
 ---
 
-_La lettre d’Ys c’est, une fois par mois, toute l’actualité des sites du réseau [Biblys](http://www.biblys.fr)._
+_La lettre d’Ys c’est, une fois par mois, toute l’actualité des sites du réseau [Biblys](http://legacy.biblys.net/)._
 
 ### &lt;span&gt;Un nouveau moteur de recherche pour les librairies&lt;/span&gt;
 
 &lt;span&gt;![](http://media.biblys.fr/post/17/4017.jpg)&lt;/span&gt;
 
-Parce qu&#039;on ne trouve pas toujours ce qu&#039;on cherche du premier coup, la [mise à jour 2.1](http://www.biblys.fr/pages/changelog#v2.1) de Biblys, propose de nombreuses améliorations du moteur de recherche, de l&#039;affichage des résultats et de nouvelles options de tri et de filtrage de ces résultats. Vous pourrez ainsi utiliser des mots-clés magiques pour préciser les champs sur lesquels vous souhaitez effectuer votre recherche (auteur, titre, éditeur, etc.) mais aussi afficher uniquement les livres neufs ou d&#039;occasion, cacher ceux qui sont indisponible, les trier par prix, etc.
+Parce qu&#039;on ne trouve pas toujours ce qu&#039;on cherche du premier coup, la [mise à jour 2.1](/pages/changelog#v2.1) de Biblys, propose de nombreuses améliorations du moteur de recherche, de l&#039;affichage des résultats et de nouvelles options de tri et de filtrage de ces résultats. Vous pourrez ainsi utiliser des mots-clés magiques pour préciser les champs sur lesquels vous souhaitez effectuer votre recherche (auteur, titre, éditeur, etc.) mais aussi afficher uniquement les livres neufs ou d&#039;occasion, cacher ceux qui sont indisponible, les trier par prix, etc.
 
 Les nouvelles options sont nombreuses, vous en trouverez le détail sur le blog Biblys. Il sera disponible d&#039;ici peu pour la librairie Charybde dont le site est en cours de rénovation, mais dès aujourd&#039;hui sur celui de la librairie Scylla. Profitez-en pour explorer le nouveau rayon BD que vient d&#039;ouvrir Scylla !
 
 [Tout sur le nouveau moteur de recherche](http://biblys.fr/blog/moteur-de-recherche-librairie)  
- [La liste des mots-clés magiques](http://www.biblys.fr/pages/doc_mots-cles-magiques)  
+ [La liste des mots-clés magiques](/pages/doc_mots-cles-magiques)  
  [Le nouveau rayon BD de la librairie Scylla](http://www.scylla.fr/pages/bd)
 
 ### -20% sur l&#039;occasion mainstream chez Charybde
@@ -53,6 +54,6 @@ Biblys est désormais présent sur les réseaux sociaux ! Le but, tout comme la 
 
 &lt;/div&gt; _Ainsi s’achève la 45ème Lettre d’Ys, envoyée le 22 mars 2014 à 4145 heureux élus. Rendez-vous au mois de avril pour la quarante-sixième livraison de cette modeste publication !_
 
-Bonnes lectures et à très bientôt sur les sites du réseau [Biblys](http://www.biblys.fr),
+Bonnes lectures et à très bientôt sur les sites du réseau [Biblys](http://legacy.biblys.net/),
 
 Clément

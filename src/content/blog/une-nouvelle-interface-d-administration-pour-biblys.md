@@ -1,6 +1,7 @@
 ---
+
 title: Une nouvelle interface d'administration pour Biblys
-image: https://www.biblys.fr/images/post/10/6510.jpg
+image: ~/assets/images/post/10/6510.jpg
 published: true
 publishDate: 2017-01-29T00:00:00.000Z
 author: Clément Latzarus
@@ -16,7 +17,7 @@ L’interface d’administration est le coeur de Biblys, le point de départ de 
 
 ### La nouvelle interface
 
-![](https://www.biblys.fr/biblys/media/blog/admin-interface.png)
+![](/biblys/media/blog/admin-interface.png)
 
 À présent, les différents outils, sous la forme de petites icônes, sont répartis dans des sections thématiques, organisées dans trois colonnes, qui, sur mobile, peuvent se transformer en une seule. On a donc un design qui est responsive, à condition que le site le soit lui-même, ce qui n’est pas encore le cas de tous les sites Biblys.
 
@@ -26,7 +27,7 @@ La nouvelle interface se veut plus claire, avec des espaces thématiques mieux d
 
 Une nouvelle fonctionnalité a fait son apparition en haut de la page d’administration. Les raccourcis offrent la possibilité à l’administrateur (en cliquant sur **gérer les raccourcis**) de mettre en exergue les outils qu’il utilise le plus souvent pour y accéder facilement. Ceux-ci s’affichent alors en priorité, sous la forme de grosses icônes, au sommet de la page. Si plusieurs administrateurs utilisent un site, chacun peut créer ses propres raccourcis.
 
-![](https://www.biblys.fr/biblys/media/blog/admin-raccourcis.png)
+![](/biblys/media/blog/admin-raccourcis.png)
 
 Certains raccourcis affichent un badge de notifications apportant une information supplémentaire. Par exemple, le raccourci de l’outil commandes affiche le nombre de commandes à expédier, tandis que le raccourci de l’outil paniers affiche le nombre de panier en cours. Ce sont pour l’instant les deux seuls outils qui disposent de notifications, mais n’hésitez pas à m’en proposer d’autres qui vous paraîtraient utiles.
 
@@ -34,7 +35,7 @@ Certains raccourcis affichent un badge de notifications apportant une informatio
 
 Dernière nouvelle fonctionnalité, la barre d’administration apparaît en haut de chaque page du site lorsqu’un utilisateur est connecté en tant qu’administrateur. Elle affiche le logo Biblys, sur lequel on peut cliquer pour accéder rapidement à l’administration, ainsi que tous les raccourcis qui ont été créés par l’administrateur. Cela permet d’accéder rapidement à un outil depuis n’importe quelle page, tout en gardant un oeil sur les notifications à tout instant.
 
-![](https://www.biblys.fr/biblys/media/blog/admin-barre.png)
+![](/biblys/media/blog/admin-barre.png)
 
 ### En conclusion
 

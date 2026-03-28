@@ -1,11 +1,12 @@
 ---
+
 title: 'Lettre d''Ys n° 42 : Promotions sur l''occasion et le numérique'
 published: true
 publishDate: 2013-10-29T00:00:00.000Z
 author: Clément Latzarus
 ---
 
-_La lettre d&#039;Ys c&#039;est, une fois par mois, toute l&#039;actualité des sites propulsés par [Biblys](http://www.biblys.fr)._
+_La lettre d&#039;Ys c&#039;est, une fois par mois, toute l&#039;actualité des sites propulsés par [Biblys](http://legacy.biblys.net/)._
 
 ### 40% sur l&#039;occasion chez Charybde
 
@@ -47,6 +48,6 @@ Au sommaire de la prochaine Lettre d&#039;Ys, on devrait parler des [Imaginales]
 
 _Ainsi s&#039;achève la 42ème Lettre d&#039;Ys, envoyée le 29 juin 2013 à 3922 heureux élus. Rendez-vous d&#039;ici quelques temps pour la 43ème livraison de cette modeste publication !_
 
-A très bientôt sur les sites du réseau [Biblys](http://www.biblys.fr),
+A très bientôt sur les sites du réseau [Biblys](http://legacy.biblys.net/),
 
 Clément

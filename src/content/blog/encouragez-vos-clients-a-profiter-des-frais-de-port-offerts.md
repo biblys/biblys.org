@@ -1,4 +1,5 @@
 ---
+
 title: Encouragez vos clients à profiter des frais de ports offerts
 excerpt: Comment faire savoir à vos clients que les frais de ports sont offerts à partir de 35,00 € d'achat ?
 image: ~/assets/images/blog/encouragez-vos-clients-a-profiter-des-frais-de-port-offerts/cover.png
@@ -55,7 +56,7 @@ besoins d'améliorations et voter pour les propositions qui vous paraissent les 
 
 ## 🙇 Merci de votre attention !
 
-N’hésitez pas à [me contacter](https://www.biblys.fr/contact/) pour me faire part de vos questions et remarques.
+N’hésitez pas à [me contacter](/contact/) pour me faire part de vos questions et remarques.
 Envie d'en discuter ? [Prenez rendez-vous](https://cal.com/clemlatz/rdv) pour un appel en visio !
 
 ---

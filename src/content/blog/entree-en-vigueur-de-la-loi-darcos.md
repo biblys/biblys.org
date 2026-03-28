@@ -1,4 +1,5 @@
 ---
+
 title: Entrée en vigueur de la loi Darcos sur les frais de port
 excerpt: La loi Darcos, rendant obligatoire un tarif minimal de 3,00 € de frais de port pour le livre, entrera en vigueur le 7 octobre 2023.
 image: ~/assets/images/blog/entree-en-vigueur-de-la-loi-darcos/cover.jpg
@@ -54,7 +55,7 @@ Si cette idée vous paraît pertinente, je vous encourage à voter pour elle sur
 
 ## 🙇 Merci de votre attention !
 
-N’hésitez pas à [me contacter](https://www.biblys.fr/contact/) pour me faire part de vos questions et remarques.
+N’hésitez pas à [me contacter](/contact/) pour me faire part de vos questions et remarques.
 
 Envie d'en discuter ? [Prenez rendez-vous](https://cal.com/clemlatz/rdv) pour un appel en visio !
 

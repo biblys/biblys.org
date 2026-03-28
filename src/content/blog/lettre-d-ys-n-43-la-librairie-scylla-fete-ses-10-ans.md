@@ -1,15 +1,16 @@
 ---
+
 title: "Lettre d’Ys n° 43 : La librairie Scylla fête ses 10 ans\_!"
 published: true
 publishDate: 2014-01-10T00:00:00.000Z
 author: Clément Latzarus
 ---
 
-[La lettre d’Ys](http://www.biblys.fr/blog/lettres-ys) c’est, une fois par mois, toute l’actualité des sites du réseau [Biblys](http://www.biblys.fr/).
+[La lettre d’Ys](/blog/lettres-ys) c’est, une fois par mois, toute l’actualité des sites du réseau [Biblys](/).
 
 ### Biblys en 2014
 
-Lorsque la Librairie Ys [disparaissait du web il y a tout juste un an](http://www.biblys.fr/blog/la-librairie-ys-c-est-fini-mais-l-aventure-continue), le logiciel Biblys qui avait été créé pour les besoins de la librairie était déjà utilisés par nombreux autres sites de librairies, maison d’éditions, salons du livre, etc. Depuis cette date, cette Lettre d’Ys nouvelle formule vous tient informé plusieurs fois par an des évolutions de Biblys et de l’actualité des sites qui l’utilisent. L’année 2014 verra la naissance de nombreux nouveaux sites Biblys, notamment de jeunes maisons d’édition désireuses de tirer parti d’Internet et des nouvelles technologies plutôt que d’y voir des ennemis, tandis que d’anciens sites sont en cours de rénovation.
+Lorsque la Librairie Ys [disparaissait du web il y a tout juste un an](/blog/la-librairie-ys-c-est-fini-mais-l-aventure-continue), le logiciel Biblys qui avait été créé pour les besoins de la librairie était déjà utilisés par nombreux autres sites de librairies, maison d’éditions, salons du livre, etc. Depuis cette date, cette Lettre d’Ys nouvelle formule vous tient informé plusieurs fois par an des évolutions de Biblys et de l’actualité des sites qui l’utilisent. L’année 2014 verra la naissance de nombreux nouveaux sites Biblys, notamment de jeunes maisons d’édition désireuses de tirer parti d’Internet et des nouvelles technologies plutôt que d’y voir des ennemis, tandis que d’anciens sites sont en cours de rénovation.
 
 Le système de compte [Axys](http://axys.me/) profitera également d’une refonte complète pour vous proposer de nouveaux outils intelligents pour gérer et partager vos achats, vos lectures et vos livres, qu’ils soient en papier ou en numérique. Enfin, les sites Biblys les plus anciens seront rafraichis et remis au goût du jour, pour profiter des toutes dernières technologies du web.
 
@@ -45,6 +46,6 @@ Au sommaire de la prochaine Lettre d’Ys, on parlera très probablement de cett
 
 _Ainsi s’achève la 43ème Lettre d’Ys, envoyée le 10 janvier 2014 à 4018 heureux élus. Rendez-vous en février pour la quarante-quatrième édition de cette modeste publication !_
 
-A très bientôt sur les sites du réseau [Biblys](http://www.biblys.fr),
+A très bientôt sur les sites du réseau [Biblys](http://legacy.biblys.net/),
 
 Clément

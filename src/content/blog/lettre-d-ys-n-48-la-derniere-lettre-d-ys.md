@@ -1,12 +1,13 @@
 ---
+
 title: 'Lettre d''Ys n° 48 : la dernière Lettre d''Ys !'
-image: https://www.biblys.fr/images/post/90/5590.jpg
+image: ~/assets/images/post/90/5590.jpg
 published: true
 publishDate: 2016-01-05T00:00:00.000Z
 author: Clément Latzarus
 ---
 
-La Lettre d’Ys c’était, une fois par mois, toute l’actualité des sites du réseau [Biblys](http://www.biblys.fr).
+La Lettre d’Ys c’était, une fois par mois, toute l’actualité des sites du réseau [Biblys](http://legacy.biblys.net/).
 
 ### Un financement participatif pour les éditions Dystopia
 
@@ -32,9 +33,9 @@ Vous pouvez en outre feuilleter la totalité des titres du catalogue avant achat
 
 ### Biblys : bilan 2015 et perspectives 2016
 
-Sur le blog Biblys, [j&#039;ai rédigé un long billet](http://www.biblys.fr/blog/bilan-2015-et-perspectives-2016) sur les évolutions de Biblys au cours de l&#039;année dernière (notamment le financement participatif et les listes d&#039;envies) et sur celles qu&#039;on peut attendre pour cette année. En bref : une version 3 open source, de l&#039;open data, des services sociaux...
+Sur le blog Biblys, [j&#039;ai rédigé un long billet](/blog/bilan-2015-et-perspectives-2016) sur les évolutions de Biblys au cours de l&#039;année dernière (notamment le financement participatif et les listes d&#039;envies) et sur celles qu&#039;on peut attendre pour cette année. En bref : une version 3 open source, de l&#039;open data, des services sociaux...
 
-**[... et en détail sur le blog Biblys !](http://www.biblys.fr/blog/bilan-2015-et-perspectives-2016)**
+**[... et en détail sur le blog Biblys !](/blog/bilan-2015-et-perspectives-2016)**
 
 ### Ainsi s&#039;achève...
 

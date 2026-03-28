@@ -1,6 +1,7 @@
 ---
+
 title: Facturation des noms de domaine à partir du 1er mars 2022
-image: https://www.biblys.fr/images/post/09/10509.jpg
+image: ~/assets/images/post/09/10509.jpg
 published: true
 publishDate: 2021-12-08T00:00:00.000Z
 author: Clément Latzarus

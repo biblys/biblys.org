@@ -1,6 +1,7 @@
 ---
+
 title: 'Axys : amélioration du chiffrement des mots de passe'
-image: https://www.biblys.fr/images/post/35/5735.jpg
+image: ~/assets/images/post/35/5735.jpg
 published: true
 publishDate: 2016-03-23T00:00:00.000Z
 author: Clément Latzarus
@@ -32,7 +33,7 @@ Bien qu&#039;il soit toujours impossible d&#039;obtenir un mot de passe à parti
 
 Des fonctions de hachage plus récentes et plus couteuses rendent cette opération beaucoup plus difficile, quoique l&#039;évolution de la puissance de calcul des processeurs (et notamment l&#039;utilisation de puces graphiques) oblige à les améliorer sans cesse. Pour mieux protéger les mots de passe, on peut ajouter une chaîne de caractère unique et aléatoire appelée &quot;salt&quot; (grain de sel) au mot de passe avant son encryptage ce qui limite la possibilité de créer des dictionnaires. On peut également augmenter le coup algorithmique de l&#039;encryptage en appliquant plusieurs fois la fonction de hachage cryptographique sur le mot de passe puis sur le hachage produit, et ainsi de suite.
 
-![](http://www.biblys.fr/biblys/media/blog/encrypted-stories.jpg)
+![](/biblys/media/blog/encrypted-stories.jpg)
 
 Image : Encrypted stories CC [BY](https://creativecommons.org/licenses/by/2.0/) [Joel Penner](https://www.flickr.com/photos/featheredtar/3042678202/)
 

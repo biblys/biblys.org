@@ -1,4 +1,5 @@
 ---
+
 title: Tarifs 2025 et évolutions du modèle commercial
 excerpt: Comme chaque année, avec le mois de septembre vient l'heure de faire le point sur l'évolution des tarifs Biblys. Les tarifs présentés ci-dessous sont applicables à partir du 1er janvier 2025.
 image: ~/assets/images/blog/tarifs-2025/cover.jpg

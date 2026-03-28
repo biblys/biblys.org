@@ -1,4 +1,5 @@
 ---
+
 title: Tarifs 2024
 excerpt: Comme chaque année, avec le mois de septembre est venue l'heure de faire le point sur l'évolution des tarifs Biblys. Les tarifs présentées ci-dessous sont applicables à partir du 1er janvier 2024.
 image: ~/assets/images/blog/tarifs-2024/cover.jpg
@@ -62,7 +63,7 @@ C'est tout ! Par la suite, vous recevrez chaque année une facture (de 17,99 €
 
 ## 🙇 Merci de votre attention !
 
-N’hésitez pas à [me contacter](https://www.biblys.fr/contact/) pour me faire part de vos questions et remarques.
+N’hésitez pas à [me contacter](/contact/) pour me faire part de vos questions et remarques.
 
 Envie d'en discuter ? [Prenez rendez-vous](https://cal.com/clemlatz/rdv) pour un appel en visio !
 

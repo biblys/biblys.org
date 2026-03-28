@@ -1,12 +1,13 @@
 ---
+
 title: 'Biblys 2.1 : Nouveau moteur de recherche pour les librairies'
-image: https://www.biblys.fr/images/post/17/4017.jpg
+image: ~/assets/images/post/17/4017.jpg
 published: true
 publishDate: 2014-03-12T00:00:00.000Z
 author: Clément Latzarus
 ---
 
-Parce qu&#039;on ne trouve pas toujours ce qu&#039;on cherche du premier coup, la [mise à jour 2.1](http://www.biblys.fr/pages/changelog#v2.1) de Biblys, propose de nombreuses améliorations du moteur de recheche, de l&#039;affichage des résultats et de nouvelles options de tri et de filtrage de ces résultats.
+Parce qu&#039;on ne trouve pas toujours ce qu&#039;on cherche du premier coup, la [mise à jour 2.1](/pages/changelog#v2.1) de Biblys, propose de nombreuses améliorations du moteur de recheche, de l&#039;affichage des résultats et de nouvelles options de tri et de filtrage de ces résultats.
 
 Ces nouvelles options s&#039;appliquent non seulement aux résultats de recherche, mais aussi à toutes les listes de livres sur le site : fiches auteurs, collections, éditeurs et cycles sont également concernées.
 
@@ -16,15 +17,15 @@ Par défaut, lorsque vous entrez un terme de recherche, Biblys va rechercher dan
 
 Si vous entrez les mots-clés _anticipation_ pour trouver le livre La Société de l&#039;anticipation, Biblys vous retournera aussi les 2000 livres de la collection Fleuve Noir Anticipation, ce qui n&#039;est pas forcément pertinent.En entrant le mot-clé magique _titre:anticipation_ vous obtiendrez uniquement les livres dont le titre contient Anticipation.
 
-![](http://www.biblys.fr/biblys/media/blog/recherche-librairie-01.png)
+![](/biblys/media/blog/recherche-librairie-01.png)
 
-Il existe de nombreux mots-clés magiques (titre, auteur, collection, édition mais aussi date d&#039;ajout au stock, état, disponibilité et type de livre) qu&#039;il est possible de combiner entre eux pour affiner votre recherche. Vous pourrez les découvrir sur la page [Mots-clés magiques](http://www.biblys.fr/pages/doc_mots-cles-magiques).
+Il existe de nombreux mots-clés magiques (titre, auteur, collection, édition mais aussi date d&#039;ajout au stock, état, disponibilité et type de livre) qu&#039;il est possible de combiner entre eux pour affiner votre recherche. Vous pourrez les découvrir sur la page [Mots-clés magiques](/pages/doc_mots-cles-magiques).
 
 ### Triez les résultats
 
 Le nouveau menu déroulant propose de nombreuses options de tri : par titre, par auteur, par collection et numéro de collection, par série et numéro de volume, mais aussi par prix, par date de parution ou par date d&#039;ajout au stock.
 
-![](http://www.biblys.fr/biblys/media/blog/recherche-librairie-02.png)
+![](/biblys/media/blog/recherche-librairie-02.png)
 
 Il est ainsi très facile de retrouver les derniers ajouts au stock d&#039;une collection, les dernières parutions d&#039;un auteur ou, une fois votre recherche effectuée, de classer les résultats du moins cher au plus cher.
 
@@ -32,13 +33,13 @@ Il est ainsi très facile de retrouver les derniers ajouts au stock d&#039;une c
 
 Votre recherche renvoie énormément de résultat ? Il est probable que seul les livres disponibles en stock vous intéresse. Peut-être même tenez-vous à acheter le livre d&#039;occasion pour faire des économies ou au contraire en état neuf pour un cadeau. Grâce au nouveau filtre par disponibilité et état, vous pouvez afficher uniquement les livres qui vous intéressent.
 
-![](http://www.biblys.fr/biblys/media/blog/recherche-librairie-03.png)
+![](/biblys/media/blog/recherche-librairie-03.png)
 
 ### Affinez vos recherches
 
 Toujours trop de résultat ? Affichez encore votre recherche en utilisant en entrant un mot-clé dans le champ de filtrage personnalisé en haut à droite de la liste. Vous masquerez ainsi les résultats qui ne vous intéressent pas.
 
-![](http://www.biblys.fr/biblys/media/blog/recherche-librairie-04.png)
+![](/biblys/media/blog/recherche-librairie-04.png)
 
 ### Flanez sur le site
 

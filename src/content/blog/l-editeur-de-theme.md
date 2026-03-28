@@ -1,12 +1,13 @@
 ---
+
 title: L'éditeur de thème
-image: https://www.biblys.fr/images/post/96/5896.jpg
+image: ~/assets/images/post/96/5896.jpg
 published: true
 publishDate: 2016-04-22T00:00:00.000Z
 author: Clément Latzarus
 ---
 
-Avec [sa mise à jour 2.17](http://www.biblys.fr/biblys/changelog/2.17.0), Biblys se dote d&#039;un éditeur de thème. Celui-ci permet aux administrateurs de sites Biblys de modifier entièrement l&#039;habillage graphique de leur site, mais également de personnaliser les modèles des pages.
+Avec [sa mise à jour 2.17](/biblys/changelog/2.17.0), Biblys se dote d&#039;un éditeur de thème. Celui-ci permet aux administrateurs de sites Biblys de modifier entièrement l&#039;habillage graphique de leur site, mais également de personnaliser les modèles des pages.
 
 ![](/biblys/media/blog/template-editor-1.png)
 

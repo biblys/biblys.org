@@ -1,6 +1,7 @@
 ---
+
 title: HTTPS est désormais activé par défaut pour tous les sites Biblys
-image: https://www.biblys.fr/images/post/09/6309.jpg
+image: ~/assets/images/post/09/6309.jpg
 published: true
 publishDate: 2016-10-05T00:00:00.000Z
 author: Clément Latzarus
@@ -24,7 +25,7 @@ Depuis un an, la disponibilité du protocole HTTPS est également un critère d�
 
 À titre personnel, je pense comme beaucoup que le HTTPS est amené à devenir le standard de facto tandis que HTTP va disparaitre, et qu’il est du devoir des sites que nous consultons de protéger les informations que nous échangeons avec eux de tous les indiscrets qui pourraient s’interposer.
 
-![](https://www.biblys.fr/biblys/media/blog/https-1.jpg)
+![](/biblys/media/blog/https-1.jpg)
 
 « Bletchley Park » (Image CC BY-NC [John Adams](https://www.flickr.com/photos/netik/27070196446/in/photolist-Hf6QhW-8TmEJP-8TqszY-cA977s-9t7EDb-8TmFoe-cA8Yib-muCZyG-8TqoWC-8TmGfR-feraWP-gUzu9a-75uU5F-jR1PuL-9virR8-82yEZ1-9vmugo-ER8BYq-dPcqJ1-4uwyQL-8TtuZu-8TpNxS-8TpTjQ-4t68Lv-8Tqvi4-cA8Yts-8Xg1Dr-8TpS5S-9t4EMX-6DaKF-8TmM28-8TpRpC-cA96Ph-4t68Lp-cA972f-4t68LP-9t7Fx9-4aqKuz-9t7FzW-9t7F7W-8TqNf9-9t7FRu-8Ttuwq-9t4FUc-9t4Gaa-6GxcH1-9t4FeZ-9t4F7X-9t4FXK-Hf6QMJ))
 

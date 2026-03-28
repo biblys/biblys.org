@@ -1,4 +1,5 @@
 ---
+
 title: Envoyez des livres numériques avec Biblys
 excerpt: Il est depuis longtemps possible d’envoyer des livres numériques avec Biblys. Cette fonctionnalité n’était toutefois pas exempte de défauts, que vient corriger la version 2.72 déployée début septembre sur les sites Biblys.
 image: ~/assets/images/blog/envoyez-des-livres-numeriques-avec-biblys/cover.jpg
@@ -59,7 +60,7 @@ L’interface d’administration permet de voir toutes les invitations et leur s
 
 ## 🙇 Merci de votre attention !
 
-N’hésitez pas à [me contacter](https://www.biblys.fr/contact/) pour me faire part de vos questions et remarques.
+N’hésitez pas à [me contacter](/contact/) pour me faire part de vos questions et remarques.
 
 Envie d'en discuter ? [Prenez rendez-vous](https://cal.com/clemlatz/rdv) pour un appel en visio !
 

@@ -1,4 +1,5 @@
 ---
+
 title: Biblys est désormais un logiciel libre
 excerpt: Depuis sa version 3.0 publiée le 30 octobre 2024, Biblys est désormais un logiciel libre distribué sous AGPL-3.0.
 image: ~/assets/images/blog/biblys-logiciel-libre.jpg

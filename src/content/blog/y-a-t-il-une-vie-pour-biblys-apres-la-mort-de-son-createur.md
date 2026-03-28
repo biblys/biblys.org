@@ -1,4 +1,5 @@
 ---
+
 title: Y'a-t-il une vie (pour Biblys) après la mort (de son créateur) ?
 author: Clément Latzarus
 image: ~/assets/images/blog/y-a-t-il-une-vie-pour-biblys-apres-la-mort/cover.jpg
@@ -124,7 +125,7 @@ Alors, pourquoi est-ce un enjeu ? Tout simplement parce la tâche de quelqu’un
 Biblys, de le transférer sur un nouvel hébergement ou d’en extraire des données pour les utiliser sur un nouveau site
 serait grandement facilité s’il avait accès au code source et à la documentation de Biblys.
 
-![Le dépôt Github de Biblys](../../assets/images/blog/bilan-2023-et-perspectives-2024/github.png)
+![Le dépôt Github de Biblys](/biblys/media/blog/bilan-2023-et-perspectives-2024/github.png)
 _Le dépôt Github de Biblys, aujourd'hui pas encore accessible publiquement._
 
 Au-delà de mon souhait d’offrir à tous la possibilité créer de nouveaux sites Biblys sans passer par moi (ce qui est

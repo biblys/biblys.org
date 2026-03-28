@@ -1,4 +1,5 @@
 ---
+
 title: "Première Lettre d'Ys après la fin du monde (n°\_40 - février 2013)"
 published: true
 publishDate: 2013-02-08T00:00:00.000Z
@@ -19,7 +20,7 @@ L&#039;une des nouveautés par rapport à Ys, c&#039;est que Scylla proposera au
 
 Pour ne rien rater des futurs arrivages, mais aussi des évènements organisés, abonnez-vous sans tarder à [la newsletter Scylla](http://www.scylla.fr/pages/newsletter) !
 
-[En savoir plus](http://www.biblys.fr/blog/librairie-scylla) (sur le blog Biblys)
+[En savoir plus](/blog/librairie-scylla) (sur le blog Biblys)
 
 ### Les Soldats de la mer contre-attaquent
 
@@ -29,7 +30,7 @@ Après quatre éditions chez différentes maisons depuis la première en 1968, t
 
 Elles avaient été désactivées pendant la phase de transition Ys/Scylla, mais les revoilà ! Les alertes vous avertissent par courriel dès que l&#039;un des livres que vous recherchez est disponible dans une des librairies Biblys. Elles proposent de plus de nouveaux critères pour n&#039;être averti que si certaines conditions sont remplies : année d&#039;édition, état (neuf ou occasion), prix maximum, etc. Vous pouvez voir et modifier vos alertes actuelles depuis la page Mes alertes et les créer depuis les fiches livres concernées.
 
-[En savoir plus](http://www.biblys.fr/blog/alertes-biblys-le-retour) (sur le blog Biblys)
+[En savoir plus](/blog/alertes-biblys-le-retour) (sur le blog Biblys)
 
 ### En février chez Charybde
 
@@ -39,7 +40,7 @@ Outre la liste des évènements à venir, savez-vous qu&#039;on retrouve aussi s
 
 ### Ballons dirigeables et poupées gonflables
 
-Le même soir, à quelques encablures de là, on pourra aussi rencontrer [Karim Berrouka au bar Le Habibi](http://www.editions-actusf.fr/programme/soiree-lancement-berrouka). Il y dédicacera son premier recueil, [Les Ballons dirigeables rêvent-ils de poupées gonflables ?](http://www.editions-actusf.fr/karim-berrouka/les-ballons-dirigeables), paru aux éditions ActuSF. J&#039;avais personnellement beaucoup aimé sa novella [La Porte](http://www.biblys.fr/karim-berrouka/la-porte) chez Griffe d&#039;encre, et j&#039;attends donc ce recueil avec une certaine impatience. Pour les plus éloignés, il est aussi possible [de le commander](http://www.editions-actusf.fr/karim-berrouka/les-ballons-dirigeables) avant le 28 février pour le recevoir dédicacé.
+Le même soir, à quelques encablures de là, on pourra aussi rencontrer [Karim Berrouka au bar Le Habibi](http://www.editions-actusf.fr/programme/soiree-lancement-berrouka). Il y dédicacera son premier recueil, [Les Ballons dirigeables rêvent-ils de poupées gonflables ?](http://www.editions-actusf.fr/karim-berrouka/les-ballons-dirigeables), paru aux éditions ActuSF. J&#039;avais personnellement beaucoup aimé sa novella [La Porte](/karim-berrouka/la-porte) chez Griffe d&#039;encre, et j&#039;attends donc ce recueil avec une certaine impatience. Pour les plus éloignés, il est aussi possible [de le commander](http://www.editions-actusf.fr/karim-berrouka/les-ballons-dirigeables) avant le 28 février pour le recevoir dédicacé.
 
 ### Le Bélial&#039;
 

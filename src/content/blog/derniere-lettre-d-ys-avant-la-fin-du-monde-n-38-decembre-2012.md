@@ -1,4 +1,5 @@
 ---
+
 title: "Dernière Lettre d'Ys avant la fin du monde (n°\_38 - Décembre 2012)"
 published: true
 publishDate: 2012-12-01T00:00:00.000Z
@@ -29,7 +30,7 @@ Le 7 décembre, Jérôme Noirez jouera les libraires d&#039;un soir chez Charybd
 
 **Autres projets**
 
-Le 1er janvier 2013 ouvrira le nouveau site de la [Librairie Scylla](http://www.scylla.fr/), propulsé, comme celui de la Librairie Ys, par [Biblys](http://www.biblys.fr/). Vous y retrouverez bien entendu tous les services que vous connaissez bien, moteur de recherche, vente par correspondance, alertés de disponibilité, etc. ainsi que tous les livres déjà en vente chez Ys. Quel intérêt alors de créer un nouveau site pour Scylla ? C&#039;est que vous pourrez aussi y découvrir l&#039;intégralité du catalogue de livres neufs proposés par la librairie, et étant donné l&#039;importance de son fonds, ce n&#039;est pas peu dire... mais aussi l&#039;actualité de la librairie, les événements organisés, les coups de cœur du libraire. Rendez-vous donc dans un mois tout juste sur [scylla.fr](http://www.scylla.fr) !
+Le 1er janvier 2013 ouvrira le nouveau site de la [Librairie Scylla](http://www.scylla.fr/), propulsé, comme celui de la Librairie Ys, par [Biblys](/). Vous y retrouverez bien entendu tous les services que vous connaissez bien, moteur de recherche, vente par correspondance, alertés de disponibilité, etc. ainsi que tous les livres déjà en vente chez Ys. Quel intérêt alors de créer un nouveau site pour Scylla ? C&#039;est que vous pourrez aussi y découvrir l&#039;intégralité du catalogue de livres neufs proposés par la librairie, et étant donné l&#039;importance de son fonds, ce n&#039;est pas peu dire... mais aussi l&#039;actualité de la librairie, les événements organisés, les coups de cœur du libraire. Rendez-vous donc dans un mois tout juste sur [scylla.fr](http://www.scylla.fr) !
 
 Ça y est, les deux nouveaux livres des éditions [Dystopia](http://editions.dystopia.fr/) sont disponibles ! J&#039;en ai déjà parlé longuement ici donc j&#039;y reviens rapidement :
 

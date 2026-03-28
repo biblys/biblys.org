@@ -1,4 +1,5 @@
 ---
+
 title: Plus de souplesse pour le port
 excerpt: La mise à jour de Biblys de juillet 2025 (3.7) a introduit une refonte de la gestion des tarifs d'expédition, offrant plus de flexibilité.
 image: ~/assets/images/blog/plus-de-souplesse-pour-le-port/cover.jpg
