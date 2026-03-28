@@ -3,28 +3,31 @@ import { getPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Blog',
-      href: '/blog',
-    },
-    {
-      text: 'Documentation',
-      href: 'https://docs.biblys.fr',
-      target: '_blank',
-    },
-    {
-      text: 'FAQ',
-      href: '/faq',
+      text: 'Fonctionnalités',
+      href: '/#fonctionnalites',
     },
     {
       text: 'Tarifs',
       href: '/tarifs',
     },
     {
+      text: 'FAQ',
+      href: '/faq',
+    },
+    {
+      text: 'Blog',
+      href: '/blog',
+    },
+    {
+      text: 'Documentation',
+      href: 'https://docs.biblys.org',
+      target: '_blank',
+    },
+    {
       text: 'Contact',
       href: '/contact',
     },
   ],
-  actions: [{ text: 'Commencer', href: '/commencer' }],
 };
 
 export const footerData = {
@@ -41,7 +44,7 @@ export const footerData = {
       title: 'Ressources',
       links: [
         { text: 'Blog', href: '/blog' },
-        { text: 'Documentation', href: 'https://docs.biblys.fr', target: '_blank' },
+        { text: 'Documentation', href: 'https://docs.biblys.org', target: '_blank' },
         { text: 'Code source', href: 'https://github.com/biblys/biblys', target: '_blank' },
       ],
     },
