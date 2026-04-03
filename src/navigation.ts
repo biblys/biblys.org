@@ -26,6 +26,7 @@ export const headerData = {
       href: '/contact',
     },
   ],
+  actions: [{ text: 'Commencer', href: '/commencer', target: '_blank' }],
 };
 
 export const footerData = {

@@ -5,6 +5,7 @@ import Hero from '~/components/widgets/Hero.astro';
 import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Biblys · Le logiciel libre pour créer des boutiques de livre en ligne.',
@@ -213,4 +214,17 @@ const metadata = {
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Features2>
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    title="Prêt·e à vous lancer ?"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Commencer',
+        href: '/commencer',
+      },
+    ]}
+  />
 </Layout>

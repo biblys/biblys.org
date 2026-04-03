@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Layout from '~/layouts/PageLayout.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Question fréquentes',
@@ -26,4 +27,15 @@ const items = entries.map((entry) => ({
 
 <Layout metadata={metadata}>
   <FAQs title="Questions fréquentes" classes={{ container: 'max-w-6xl' }} items={items} />
+
+  <CallToAction
+    title="Prêt·e à vous lancer ?"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Commencer',
+        href: '/commencer',
+      },
+    ]}
+  />
 </Layout>
