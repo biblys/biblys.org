@@ -17,16 +17,11 @@ export const headerData = {
       href: '/blog',
     },
     {
-      text: 'Documentation',
-      href: 'https://docs.biblys.org',
-      target: '_blank',
-    },
-    {
       text: 'Contact',
       href: '/contact',
     },
   ],
-  actions: [{ text: 'Commencer', href: '/commencer', target: '_blank' }],
+  actions: [{ text: 'Commencer', href: '/commencer' }],
 };
 
 export const footerData = {
