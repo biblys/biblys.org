@@ -18,10 +18,10 @@ metadata:
   openGraph:
     site_name: Biblys
     images:
-    #      - url: '~/assets/images/default.png'
-    #        width: 1200
-    #        height: 628
-    type: website
+      - url: '~/assets/images/hero-image.jpg'
+        width: 1024
+        height: 576
+  type: website
   twitter:
     handle: '@biblys'
     site: '@biblys'
