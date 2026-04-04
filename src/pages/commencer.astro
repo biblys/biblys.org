@@ -1,6 +1,9 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Commencer',
@@ -256,4 +259,91 @@ const metadata = {
       >.
     </p>
   </div>
+
+  <!-- Steps Widget : onboarding accompagnement -->
+  <Steps
+    title="Comment se passe la mise en place ?"
+    subtitle="Pour la version avec accompagnement, voici comment se déroulent les premières semaines."
+    items={[
+      {
+        title: 'Étape 1 : <span class="font-medium">Prise de contact</span>',
+        description:
+          "Vous m'envoyez un message pour présenter votre structure et vos besoins, et nous déterminons ensemble si Biblys est la bonne solution pour votre projet de site web.",
+        icon: 'tabler:mail',
+      },
+      {
+        title: 'Étape 2 : <span class="font-medium">Configuration du site</span>',
+        description:
+          'J’installe et je vous configure Biblys sur votre hébergement, avec votre nom de domaine. Vous restez ainsi propriétaire de votre site et de vos données, même si vous souhaitez mettre fin à l’accompagnement.',
+        icon: 'tabler:settings',
+      },
+      {
+        title: 'Étape 3 : <span class="font-medium">Import de votre catalogue</span>',
+        description:
+          "Dès que le site est configuré, avant de l'ouvrir au public, vous pouvez commencer à ajouter vos livres au catalogue (ou me confier cette tâche).",
+        icon: 'tabler:books',
+      },
+      {
+        title: 'Étape 4 : <span class="font-medium">Création de l’habillage graphique</span> (facultatif)',
+        description:
+          "Pendant l’alimentation du catalogue, je crée un habillage graphique personnalisé pour votre site, à vos couleurs. Pour un démarrage plus rapide et plus économique, vous pouvez aussi choisir l'habillage de base.",
+        icon: 'tabler:palette',
+      },
+      {
+        title: 'Votre boutique est en ligne !',
+        description:
+          'Votre site est accessible au public et vous pouvez commencer à vendre vos livres. Tant que vous souhaitez être accompagné, je m’occupe de la maintenance, de l’installation des mises à jour, du support technique.',
+        icon: 'tabler:rocket',
+      },
+    ]}
+  />
+
+  <!-- FAQs Widget : réassurance -->
+  <FAQs
+    title="Questions fréquentes"
+    columns={1}
+    items={[
+      {
+        title: 'Ai-je besoin de compétences techniques ?',
+        description:
+          "Non. La version avec accompagnement ne nécessite aucune compétence technique de votre part. Je m'occupe de l'installation, de la configuration et des mises à jour. Vous gérez votre catalogue et vos commandes depuis une interface d'administration simple.",
+      },
+      {
+        title: 'Combien de temps avant que mon site soit en ligne ?',
+        description:
+          'En général, le site est prêt en quelques jours après l’achat de l’hébergement et du nom de domaine. Vous pouvez commencer immédiatement à alimenter le catalogue. C’est vous qui décidez quand il est prêt à ouvrir au public. ',
+      },
+      {
+        title: 'Que se passe-t-il si je veux arrêter ?',
+        description:
+          "Il n'y a aucun engagement : vous pouvez arrêter quand vous voulez. Dès le début, votre site et ses données vous appartiennent. Comme Biblys est installé sur un hébergement vous appartenant, vous n’avez rien à faire pour continuer à utiliser la version open source.",
+      },
+      {
+        title: 'Y a-t-il une commission sur mes ventes ?',
+        description:
+          "Non. Le montant de l'abonnement est calculé sur votre chiffre d'affaires réalisé grâce à Biblys lors de l'année n-1, mais il n'y a aucune comission sur les ventes. Les frais de transaction de votre prestataire de paiement (Stripe, PayPal, etc.) s'appliquent, mais ils sont indépendants de Biblys.",
+      },
+      {
+        title: "Le site et les données m'appartiennent-elles ?",
+        description: "Oui. L'hébergement est géré pour vous, mais il vous appartient dès le début.",
+      },
+      {
+        title: 'Puis-je passer de la version open source à la version accompagnée, ou inversement ?',
+        description:
+          "Oui. Les deux versions utilisent le même logiciel. Il est tout à fait possible de commencer en auto-hébergement et de passer à l'accompagnement plus tard, ou l'inverse si vous souhaitez reprendre la main.",
+      },
+    ]}
+  />
+
+  <!-- CallToAction Widget -->
+  <CallToAction
+    title="Prêt·e à vous lancer ?"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Prendre contact',
+        href: '/contact',
+      },
+    ]}
+  />
 </Layout>
