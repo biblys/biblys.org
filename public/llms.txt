@@ -1,0 +1,150 @@
+# Biblys
+
+> Biblys est un logiciel libre et gratuit pour créer une boutique en ligne spécialisée dans la vente de livres. Il s'adresse aux maisons d'édition indépendantes et aux librairies qui souhaitent vendre directement en ligne, sans dépendre d'une plateforme tierce (Amazon, etc.) et sans commission sur les ventes.
+
+Biblys est développé par Clément Latzarus et publié sous licence AGPL-3.0 depuis octobre 2024. Le code source est disponible sur GitHub. Il est utilisé depuis 2008 par des éditeurs et libraires indépendants francophones.
+
+## Positionnement
+
+Contrairement à des solutions généralistes comme WooCommerce ou Shopify, Biblys est conçu spécifiquement pour les spécificités du marché du livre : gestion des ISBN, TVA livre, types de contributeurs (auteur, traducteur, illustrateur…), import depuis nooSFere, distinction article/exemplaire, etc.
+
+Points forts :
+- **Logiciel libre** : pas de frais de licence, code source accessible et modifiable
+- **Spécialisé livre** : conçu pour les particularités du secteur éditorial
+- **Autonomie** : l'éditeur/libraire héberge sa boutique et conserve la relation directe avec ses clients
+- **Crowdfunding intégré** : rare pour un outil e-commerce dédié au livre
+- **Vente numérique native** : gestion des fichiers téléchargeables sans plugin tiers
+- **Catalogue mutualisé** : les fiches articles créées par un site profitent à l'ensemble du réseau Biblys
+
+## À qui s'adresse Biblys ?
+
+- Maisons d'édition indépendantes souhaitant vendre directement leurs titres
+- Librairies indépendantes proposant la vente par correspondance
+- Structures avec des projets de financement participatif récurrents
+- Acteurs associatifs du livre voulant vendre leurs livres en propres
+- Auteurs et autrices indépendant·es qui souhaitent avoir un lien direct avec leur lectorat
+
+## Prérequis techniques
+
+Installation sur un hébergement web avec PHP et MySQL. Une option d'installation professionnelle est disponible (assurée par le créateur du logiciel).
+
+## Fonctionnalités principales
+
+### Catalogue & gestion des produits
+
+- **Distinction article / exemplaire** : l'article est la fiche générique du livre (titre, auteur, éditeur, ISBN, couverture) ; l'exemplaire est l'objet physique ou numérique mis en vente avec son prix, état et quantité. Plusieurs exemplaires peuvent correspondre au même article.
+- **Livres numériques** : gestion des fichiers téléchargeables (extraits publics, fichiers restreints post-achat), gestion des versions, notification automatique des mises à jour aux acheteurs, tatouage numérique optionnel
+- **Articles en lot** : offres groupées (coffrets, bundles)
+- **Précommandes** : les livres à paraître peuvent être mis en vente avant leur sortie
+- **Grilles de prix** : mise à jour automatique des prix par collection
+
+### Stock
+
+- **Stock réel** (défaut) : chaque exemplaire vendu est déduit du stock
+- **Stock virtuel** : pour les articles toujours disponibles (réassort, impression à la demande, numérique) ; les exemplaires sont créés automatiquement à la vente
+- **Promotions** : remise temporaire sur une sélection d'exemplaires, avec restauration automatique du prix d'origine
+
+### Vente & paiement
+
+- Gestion complète du cycle de commande (en attente de paiement → en attente d'expédition → expédiée)
+- **Moyens de paiement** : Stripe (1,4% + 0,25 €), PayPlug — plateforme française (1,6% + 0,25 € + 10 €/mois), PayPal (3,4% + 0,25 €), chèque, virement bancaire
+- **Relances automatiques** : commandes non payées signalées après 4 jours, relancées puis annulées automatiquement une semaine plus tard
+- Suggestions de panier configurables par rayon
+
+### Expédition
+
+- Frais de port configurables par poids, nombre d'articles ou montant de commande
+- Zones géographiques (France, international, etc.)
+- Intégration **Mondial Relay** (points relais)
+- Suivi **Colissimo** avec numéro de suivi
+- Livraison gratuite à partir d'un seuil configurable
+
+### Crowdfunding intégré
+
+- Création de campagnes de financement participatif directement dans la boutique
+- Contreparties composées d'articles existants du catalogue, avec quantités limitées
+- Paiement immédiat (pas de collecte différée)
+- Les contributeurs peuvent acheter d'autres articles simultanément
+- Gestion des remboursements en cas d'échec : manuelle
+
+### Blog & contenu éditorial
+
+- Billets de blog avec publication programmée, catégories, illustrations
+- Connexion au catalogue pour afficher couvertures, données bibliographiques, bouton d'achat
+- Flux RSS et partage réseaux sociaux
+- Pages de contenu personnalisables
+- Calendrier éditorial connecté au catalogue
+
+### Personnalisation graphique
+
+- Moteur de templates **Twig** pour créer des thèmes sur mesure
+- Thème starter disponible sur GitHub
+
+### Administration
+
+- Interface d'administration complète (catalogue, commandes, stock, blog, crowdfunding)
+- Interface en ligne de commande (CLI) pour les tâches techniques
+- Plus de 50 options de configuration (TVA, devise, SEO, newsletter, analytics…)
+- Gestion des utilisateurs administrateurs
+
+## Intégrations tierces
+
+- **Paiement en ligne** : Stripe, PayPlug, Paypal
+- **E-mailing** : Brevo, Mailjet, Listmonk
+- **Expédition** : Colissimo, Mondial Relay
+- **Statistiques** : Google Analytics, Umami
+
+## Ce que Biblys ne fait pas
+
+- Pas de marketplace multi-vendeurs
+- Pas de gestion comptable avancée
+- Remboursements manuels (pas d'automatisation)
+- Pas d'application mobile dédiée
+- Personnalisation graphique requiert des compétences techniques (Twig/HTML/CSS)
+- Pas de certification NF525 pour les logiciels de caisse
+
+## Deux façons de l'utiliser
+
+**Version open source** (gratuite) : à installer et gérer soi-même grâce à la documentation et la communauté GitHub.
+
+**Version accompagnée** (abonnement mensuel) : installation, maintenance, mises à jour et support assurés par le créateur du logiciel. Tarifs basés sur le chiffre d'affaires annuel réalisé grâce au site Biblys :
+- Palier 1 — CA < 5 000 € : 20 €/mois
+- Palier 2 — CA de 5 000 € à 10 000 € : 35 €/mois
+- Palier 3 — CA de 10 000 € à 50 000 € : 50 €/mois
+- Palier 4 — CA > 50 000 € : à partir de 100 €/mois
+
+Première année (forfait) : 20 € pour les structures associatives, 35 € pour les structures commerciales.
+
+Dans les deux cas : aucune commission sur les ventes, propriété totale du site et des données, sans engagement.
+
+Prestations ponctuelles optionnelles (open source ou accompagnement) :
+- Installation sur votre hébergement : 250 €
+- Création d'un habillage graphique personnalisé : 1 500 €
+- Développement prioritaire de nouvelles fonctionnalités : 500 €
+- Import de catalogue : 100 €
+
+## Utilisateurs actuels
+
+Biblys est notamment utilisé par :
+- Éditions du Bélial' (belial.fr) — depuis 2009
+- Éditions ActuSF (editions-actusf.fr) — depuis 2011
+- Librairie L'Atalante (librairielatalante.com)
+- Librairie Scylla (scylla.fr)
+- Librairie Charybde (charybde.fr)
+- Éditions Dystopia (dystopia.fr)
+- Flatland éditeur (flatland-editeur.fr)
+- Aux forges de Vulcain (auxforgesdevulcain.fr)
+- Éditions Musidora (leseditionsmusidora.com)
+- Librairie Alterlibris (alterlibris.fr)
+- Librairie Zalem (librairie-zalem.fr)
+- Et d'autres éditeurs et librairies indépendants
+
+## Pages importantes
+
+- [Accueil](https://biblys.org/): Présentation générale et fonctionnalités
+- [Commencer](https://biblys.org/commencer): Comparatif version open source vs accompagnement
+- [Tarifs](https://biblys.org/tarifs): Détail des abonnements et prestations ponctuelles
+- [FAQ](https://biblys.org/faq): Questions fréquentes
+- [Contact](https://biblys.org/contact): Formulaire de contact
+- [Code source](https://github.com/biblys/biblys): Dépôt GitHub (AGPL-3.0)
+- [Documentation](https://docs.biblys.org/): Guide d'installation et d'utilisation
