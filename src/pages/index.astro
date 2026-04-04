@@ -11,9 +11,77 @@ const metadata = {
   title: 'Biblys · Le logiciel libre pour créer des boutiques de livre en ligne.',
   ignoreTitleTemplate: true,
 };
+
+const softwareApplicationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: 'Biblys',
+  url: 'https://biblys.org',
+  description:
+    "Logiciel libre de vente de livres en ligne pour les maisons d'édition et librairies indépendantes. Gestion du catalogue, boutique en ligne, livres numériques, commandes et expédition.",
+  applicationCategory: 'BusinessApplication',
+  operatingSystem: 'Web',
+  inLanguage: 'fr',
+  offers: [
+    { '@type': 'Offer', name: 'Version open source', price: '0', priceCurrency: 'EUR' },
+    {
+      '@type': 'Offer',
+      name: 'Version accompagnée — Palier 1',
+      price: '20',
+      priceCurrency: 'EUR',
+      billingIncrement: 1,
+      unitText: 'mois',
+    },
+    {
+      '@type': 'Offer',
+      name: 'Version accompagnée — Palier 2',
+      price: '35',
+      priceCurrency: 'EUR',
+      billingIncrement: 1,
+      unitText: 'mois',
+    },
+    {
+      '@type': 'Offer',
+      name: 'Version accompagnée — Palier 3',
+      price: '50',
+      priceCurrency: 'EUR',
+      billingIncrement: 1,
+      unitText: 'mois',
+    },
+    {
+      '@type': 'Offer',
+      name: 'Version accompagnée — Palier 4',
+      price: '100',
+      priceCurrency: 'EUR',
+      billingIncrement: 1,
+      unitText: 'mois',
+    },
+  ],
+  featureList: [
+    'Gestion de catalogue bibliographique',
+    'Boutique en ligne avec rayons et mots-clés',
+    'Vente de livres numériques avec téléchargement sécurisé',
+    "Gestion des commandes et de l'expédition",
+    'Gestion du stock et des fournisseurs',
+    'Paiement sécurisé Stripe et PayPlug',
+    'Blog et calendrier éditorial',
+    'Financement participatif intégré',
+    'Code source ouvert (AGPL-3.0)',
+  ],
+  codeRepository: 'https://github.com/biblys/biblys',
+  license: 'https://www.gnu.org/licenses/agpl-3.0.html',
+  author: {
+    '@type': 'Person',
+    name: 'Clément Latzarus',
+    url: 'https://clemlatz.dev',
+  },
+};
 ---
 
 <Layout metadata={metadata}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(softwareApplicationSchema)} />
+  </Fragment>
   <!-- Hero Widget ******************* -->
 
   <Hero
