@@ -1,6 +1,6 @@
 ---
 title: 'Rappel : récupérez votre nom de domaine avant la fin 2026'
-excerpt: Comme chaque année, avec le mois de septembre vient l'heure de faire le point sur l'évolution des tarifs Biblys. Les tarifs présentés dans cet article sont applicables à partir du 1er janvier 2026.
+excerpt: Les noms de domaine gérés dans le cadre de l'abonnement Biblys seront bientôt supprimées. Récupérez le votre avant qu'il ne soit trop tard !
 #image: ~/assets/images/blog/tarifs-2026.jpg
 author: Clément Latzarus
 published: true
