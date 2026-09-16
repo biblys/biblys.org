@@ -1,91 +1,56 @@
 ---
 title: Tarifs 2027
-excerpt: Comme chaque année, avec le mois de septembre vient l'heure de faire le point sur l'évolution des tarifs Biblys. Les tarifs présentés dans cet article sont applicables à partir du 1er janvier 2027.
-image: ~/assets/images/blog/tarifs-2026.jpg
+excerpt: L'abonnement libre est remplacé par une grille de tarifs fixes basée sur le CA. L'option Nom de domaine est supprimée comme annoncée. L'option Hébergement passe à 20 € / mois.
+image: ~/assets/images/blog/tarifs-2027.jpg
 author: Clément Latzarus
-published: false
-draft: true
+published: true
+draft: false
 publishDate: 2026-09-09T09:00:00.000Z
 ---
 
-Comme chaque année, avec le mois de septembre vient l'heure de faire le point sur l'évolution des tarifs Biblys. Les
-tarifs présentés ci-dessous sont applicables à partir du 1er janvier 2027.
+# Tarifs 2027
 
-NB : Ces tarifs concernent uniquement la version accompagnée de Biblys, qui inclut la maintenance, les mises à jour,
-l'assistance et le support technique. La version open-source est et restera toujours gratuite, [disponible sur GitHub](https://github.com/biblys/biblys).
+Comme chaque année, avec le mois de septembre vient l'heure de faire le point sur l'évolution des tarifs Biblys. Les tarifs présentés ci-dessous sont applicables à partir du 1er janvier 2027. Ils ne concernent que la version "accompagnée" de Biblys : **la version open source reste et restera toujours gratuite**.
 
 ## 🚀 En bref
 
-- Le montant de l’abonnement dépend maintenant du CA réalisé
-- L’option Hébergement passe à 20 € / mois
-- L’option Nom de domaine a été supprimée
-
-## 🧰 Le montant de l’abonnement Biblys va devenir libre
-
-En 2026, le montant de l’abonnement Biblys pourra être fixé librement par mes client·es. Je reviendrai sur les raisons
-de ce changement et sa mise en place dans une communication dédiée avant la fin de l’année. Retenez qu’il sera de toute
-façon possible de rester sur le montant de 20 € / mois, donc qu’il n’y pas à proprement parler d’augmentation.
-
-## 🏡 L’option hébergement passe à 20 € / mois
-
-Depuis l’année dernière, je proposais deux options hébergement, à 16 € / mois pour l’option 10 Go et 26 € / mois pour
-l’option 20 Go par mois. Ces tarifs étaient basés sur les options équivalentes de
-l’hébergeur [alwaysdata](https://www.alwaysdata.com/en/register/?from=215e2fb8), que je refacturais en y ajoutant mes
-charges. Depuis peu, [alwaysdata](https://www.alwaysdata.com/en/register/?from=215e2fb8) a
-revu [ses tarifs à la baisse](https://changelog.alwaysdata.com/) et propose désormais un hébergement avec 50 Go d’espace
-disque pour 7,20 € qui est largement suffisante pour tous mes client·es.
-
-En conséquence, **je proposerai désormais une unique option hébergement à 15 € / mois avec 50 Go** d’espace disque.
-Puisqu’il s’agit d’une baisse, ce nouveau tarif universel sera appliqué dès le 1er septembre 2025.
-
-**Il reste bien évidemment possible (et je le recommande toujours fortement) à mes client·es de récupérer l’hébergement
-de leur site**, auquel cas, ils n’auront plus qu’à payer la somme 7,20 € à
-l’hébergeur [alwaysdata](https://www.alwaysdata.com/en/register/?from=215e2fb8).
-
-## 🏷️ L’option Nom de domaine va être supprimé
-
-Comme annoncé l’année dernière, l’option Nom de domaine ne sera plus proposée à partir de 2027.
-
-Concrètement, cela signifie que **si vous ne récupérez pas votre nom de domaine, il sera renouvelé une dernière fois en
-2026, puis abandonné**. À partir du 1er janvier 2026, votre site sera accessible via une adresse sous la forme
-"nom-du-site.alwaysdata.net", adresse vers laquelle seront redirigés vos client·es
-s’ils saisissent votre nom de domaine dans la barre d’adresse de leur navigateur. **Cette redirection cessera de
-fonctionner à la disparition du domaine, courant 2027.**
-
-Il va sans dire que **je** **recommande très fortement** **de récupérer votre nom de domaine**, au risque de désorienter
-vos client·es, de perdre le bénéfice de votre référencement, voire de subir
-un [cybersquat](https://fr.wikipedia.org/wiki/Cybersquattage).
-
-Pour mes client·es qui choisiraient de ne pas le faire, **l’option Nom de domaine restera facturée à 10 € / mois en 2026
-**.
-
-## 🔐 L’option Axys passe à 5,00 € / mois pour tous
-
-Cette option est apparue l’année dernière, mais elles n’étaient payante que mes nouveaux clients, car les sites Biblys
-historiques ne pouvaient se passer d’Axys pour des raisons techniques. Cette limitation est désormais obsolète puisqu’il
-est possible, sur tous les sites, de se connecter avec une adresse e-mail, sans utiliser le fournisseur d’identité Axys.
-
-**L’option Axys sera donc facturée 5,00 € / mois à tous mes client·es à partir du 1er janvier 2025.** Si vous souhaitez
-plus bénéficier d’Axys, faites-le-moi savoir dès aujourd’hui pour que je débranche le service.
-
-Pour rappel, le fournisseur d’identité Axys permet aux utilisateur·ices de se connecter en un clic sur votre site, sans
-avoir à créer de compte, s’ils ont déjà créé un compte sur un autre site utilisant Axys. En cas de débranchement du
-service, il leur sera toujours possible de se connecter à votre site avec une adresse e-mail.
+- L'abonnement libre est remplacé par une grille de tarifs fixes basée sur le chiffre d'affaires.
+- L'option Nom de domaine est supprimée comme annoncée
+- L'option Hébergement passe à 20 € / mois
+- Aucun changement sur l'option Axys
 
 ## 💸 Vers une rémunération pour mieux maintenir Biblys
 
-Ces différentes évolutions ont deux objectifs :
+Les évolutions tarifaires de ces dernières années ont pour objectif de me permettre de dégager une rémunération pour la journée hebdomadaire que je consacre à Biblys. Dans le même temps, je veux que Biblys reste accessible aux petites structures, notamment librairies et maison d'associatives. J'ai donc choisi de proposer, à partir de 2027, un abonnement dont le tarif est basé sur le CA.
 
-- Proposer une progressivité de tarifs pour permettre à tous types de maison d’édition d’utiliser Biblys, de la version
-  open-source gratuite à une solution clés-en-mains ;
-- M’éviter de la facturation sans valeur ajoutée, et donc des charges inutiles pour mes cliente·s.
-- Me permettre de dégager une petite rémunération pour la journée hebdomadaire que je consacre à Biblys.
+## 🎚️ Pour la version accompagnée, un tarif basé sur le CA
+
+L'année dernière, j'ai fait le choix de rendre le montant de l'abonnement Biblys libre, laissant à mes client·es la possibilité de le fixer elles et eux-mêmes. Ce principe n'a pas rencontré l'enthousiasme que j'espérais : peu de client·es s'en sont saisi, et le dispositif a surtout ajouté de la complexité sans me permettre de m'approcher de mon objectif.
+
+Je reviens donc sur cette décision. **L'abonnement Biblys repasse à des tarifs fixes**, calculés en fonction du chiffre d'affaires annuel réalisé grâce au site :
+
+| Palier | Chiffre d'affaires annuel | Tarif mensuel     |
+| ------ | ------------------------- | ----------------- |
+| 1      | Inférieur à 5 000 €       | 20 €              |
+| 2      | De 5 000 € à 10 000 €     | 35 €              |
+| 3      | De 10 000 € à 50 000 €    | 50 €              |
+| 4      | Supérieur à 50 000 €      | à partir de 100 € |
+
+Le montant de l'abonnement mensuel pour une année _n_ est calculé sur le chiffre d'affaires de l'année _n-1_, il est ajusté au besoin chaque année au 1er janvier. Pour la première année, en l'absence de chiffres d'
+
+Cette grille, qui reprend et formalise les paliers déjà en place avant l'expérience de l'abonnement libre, est disponible en détail sur la [page Tarifs](https://biblys.org/tarifs).
+
+## 🏷️ L'option Nom de domaine est supprimée
+
+Comme annoncé l'année dernière, l'option Nom de domaine n'est plus proposée à partir de 2027.
+
+**Si vous n'avez pas récupéré votre nom de domaine, vous risquez de le perdre.** Je vous invite fortement à vérifier votre situation et à me contacter si vous avez besoin d'aide pour effectuer ce transfert.
+
+## 🏡 L'option hébergement passe à 20 € / mois
+
+L'hébergement d'un site Biblys est facturée indépendamment depuis que Biblys est open source et qu'il est possible de l'héberger soi-même. C'est ce que je recommande grandement de faire (sans que ça n'empeche de conserver la tranquilité de l'accompagnement), et c'est la raison qui motive cette augmentation. **L'option sera propablement supprimée le sera l'année prochaine**, comme celle du nom de domaine, en 2028. Je vous invite donc à prendre les devants.
 
 ---
 
-Image de couverture :  
-Photo
-de <a href="https://unsplash.com/fr/@blankerwahnsinn?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
-Fabian Blank</a>
-sur <a href="https://unsplash.com/fr/photos/figurine-de-cochon-rose-sur-surface-blanche-pElSkGRA2NU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
-Unsplash</a>
+Illustration de couverture :  
+Photo de <a href="https://unsplash.com/fr/@andretaissin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andre Taissin</a> sur <a href="https://unsplash.com/fr/photos/tirelire-cochon-rose-sur-table-en-bois-marron-5OUMf1Mr5pU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
